@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_05fE0PMREeSZdpmESa3SGQ" name="sample_json" dataPackage="_05fE0vMREeSZdpmESa3SGQ" JSONFilePath="C:/Users/harshul/talend-home/demo/out-webservice.json" Encoding="UTF-8">
+    <schema xmi:id="_05fE0fMREeSZdpmESa3SGQ" LimitBoucle="50" AbsoluteXPathQuery="ResponseContent/results/address_components" flag="ROOT_OBJECT"/>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_05fE0vMREeSZdpmESa3SGQ" name="default" dataManager="_05fE0PMREeSZdpmESa3SGQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_05fE0_MREeSZdpmESa3SGQ" id="_NOTJAPMREeSZdpmESa3SGQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_05fE1PMREeSZdpmESa3SGQ" name="long_name" label="long_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_05fE1fMREeSZdpmESa3SGQ" name="short_name" label="short_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_05fE1vMREeSZdpmESa3SGQ" name="types" label="types" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

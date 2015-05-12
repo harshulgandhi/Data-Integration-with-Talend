@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="dirStruct" prompt="dirStruct?" promptNeeded="false" type="id_String" value="[2015,05,default,11]"/>
+    <contextParameter comment="" name="zipFlag" prompt="zipFlag?" promptNeeded="false" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="fileList" prompt="fileList?" promptNeeded="false" type="id_String" value="[input.csv,report.csv,output.csv]"/>
+    <contextParameter comment="" name="softDelete" prompt="softDelete?" promptNeeded="false" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="zipType" prompt="zipType?" promptNeeded="false" type="id_String" value="zip"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="TypeAFile">
+    <contextParameter comment="" name="dirStruct" prompt="dirStruct?" promptNeeded="false" type="id_String" value="[2015,05,typeA,11]"/>
+    <contextParameter comment="" name="zipFlag" prompt="zipFlag?" promptNeeded="false" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="fileList" prompt="fileList?" promptNeeded="false" type="id_String" value="[input.csv,report.csv,output.csv]"/>
+    <contextParameter comment="" name="softDelete" prompt="softDelete?" promptNeeded="false" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="zipType" prompt="zipType?" promptNeeded="false" type="id_String" value="tar"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="TypeBFile">
+    <contextParameter comment="" name="dirStruct" prompt="dirStruct?" promptNeeded="false" type="id_String" value="[2015,05,typeB,11]"/>
+    <contextParameter comment="" name="zipFlag" prompt="zipFlag?" promptNeeded="false" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="fileList" prompt="fileList?" promptNeeded="false" type="id_String" value="[input.csv,report.csv,output.csv]"/>
+    <contextParameter comment="" name="softDelete" prompt="softDelete?" promptNeeded="false" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="zipType" prompt="zipType?" promptNeeded="false" type="id_String" value="tar"/>
+  </talendfile:ContextType>
+</xmi:XMI>

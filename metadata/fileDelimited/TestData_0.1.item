@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_gh3T4POfEeSN0flIg2S2Bw" name="TestData" dataPackage="_gh3T4fOfEeSN0flIg2S2Bw" Server="Localhost 127.0.0.1" FilePath="C:/Users/harshul/talend-home/demo/TestData.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_gh3T4fOfEeSN0flIg2S2Bw" name="default" dataManager="_gh3T4POfEeSN0flIg2S2Bw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_gh3T4vOfEeSN0flIg2S2Bw" id="_Y8ihQPOfEeSN0flIg2S2Bw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gh3T4_OfEeSN0flIg2S2Bw" label="place" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gh3T5POfEeSN0flIg2S2Bw" label="latitude" length="12" precision="11" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gh3T5fOfEeSN0flIg2S2Bw" label="longitude" length="14" precision="11" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
