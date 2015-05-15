@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_79T-gPlUEeSXealHA6Uc8A" name="hdb_carpark" dataPackage="_79T-gflUEeSXealHA6Uc8A" Server="Localhost 127.0.0.1" FilePath="C:/Users/harshul/talend-home/car_park_service/input_data/705010000000014683S.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_79T-gflUEeSXealHA6Uc8A" name="default" dataManager="_79T-gPlUEeSXealHA6Uc8A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_79T-gvlUEeSXealHA6Uc8A" id="_VViAcPlUEeSXealHA6Uc8A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-g_lUEeSXealHA6Uc8A" label="CAR_PARK_NO" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-hPlUEeSXealHA6Uc8A" label="BLOCK_NO" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-hflUEeSXealHA6Uc8A" label="STREET_NAME" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-hvlUEeSXealHA6Uc8A" label="X_COORD" length="10" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-h_lUEeSXealHA6Uc8A" label="Y_COORD" length="10" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-iPlUEeSXealHA6Uc8A" label="CAR_PARK_TYPE" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-iflUEeSXealHA6Uc8A" label="TYPE_OF_PARKING_SYSTEM" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-ivlUEeSXealHA6Uc8A" label="SHORT_TERM_PARKING" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-i_lUEeSXealHA6Uc8A" label="FREE_PARKING" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-jPlUEeSXealHA6Uc8A" label="NIGHT_PARKING" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_79T-jflUEeSXealHA6Uc8A" label="PARK___RIDE_SCHEME_____" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
