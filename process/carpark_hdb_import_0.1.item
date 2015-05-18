@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="dirHdbParkinglist" prompt="dirHdbParkinglist?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Users/harshul/talend-home/carpark_static_import/Input/"/>
-    <contextParameter comment="" name="dirHdbParkinglistRaw" prompt="dirHdbParkinglistRaw?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Users/harshul/talend-home/carpark_static_import/Input/"/>
+    <contextParameter comment="" name="dirHdbParkinglist" prompt="dirHdbParkinglist?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Masters/Internship/QI/carpark_static_import/Input"/>
+    <contextParameter comment="" name="dirHdbParkinglistRaw" prompt="dirHdbParkinglistRaw?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Masters/Internship/QI/carpark_static_import/Input"/>
     <contextParameter comment="" name="fileHdbParkinglist" prompt="fileHdbParkinglist?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="hdb_carpark_data.csv"/>
     <contextParameter comment="" name="fileHdbParkinglistRaw" prompt="fileHdbParkinglistRaw?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="__raw__hdb_carpark_data.csv"/>
     <contextParameter comment="" name="hdbUrl" prompt="hdbUrl?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="https://data.gov.sg/Agency_Data/HDB/0705010000000014683S.txt"/>
   </context>
   <context confirmationNeeded="false" name="cont1">
-    <contextParameter comment="" name="dirHdbParkinglist" prompt="dirHdbParkinglist?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Users/harshul/talend-home/carpark_static_import/Input/"/>
-    <contextParameter comment="" name="dirHdbParkinglistRaw" prompt="dirHdbParkinglistRaw?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Users/harshul/talend-home/carpark_static_import/Input/"/>
+    <contextParameter comment="" name="dirHdbParkinglist" prompt="dirHdbParkinglist?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Masters/Internship/QI/carpark_static_import/Input"/>
+    <contextParameter comment="" name="dirHdbParkinglistRaw" prompt="dirHdbParkinglistRaw?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="C:/Masters/Internship/QI/carpark_static_import/Input"/>
     <contextParameter comment="" name="fileHdbParkinglist" prompt="fileHdbParkinglist?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="hdb_carpark_data.csv"/>
     <contextParameter comment="" name="fileHdbParkinglistRaw" prompt="fileHdbParkinglistRaw?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="__raw__hdb_carpark_data.csv"/>
     <contextParameter comment="" name="hdbUrl" prompt="hdbUrl?" promptNeeded="false" repositoryContextId="_cDn84PrEEeSUccz3STGa3Q" type="id_String" value="https://data.gov.sg/Agency_Data/HDB/0705010000000014683S.txt"/>
@@ -106,7 +106,7 @@
   </parameters>
   <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="CLOSED_LIST" name="PROTO" value="https"/>
     <elementParameter field="CHECK" name="POST" value="false"/>
     <elementParameter field="TEXT" name="URI" value="context.hdbUrl"/>
@@ -150,7 +150,7 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.dirHdbParkinglistRaw+&quot;/&quot;+context.fileHdbParkinglistRaw"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -260,7 +260,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_5"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="// code sample:&#xA;//&#xA;// multiply by 2 the row identifier&#xA;// output_row.id = input_row.id * 2;&#xA;//&#xA;// lowercase the name&#xA;// output_row.name = input_row.name.toLowerCase();&#xA;&#xA;//System.out.println(row3.CAR_PARK_NO.indexOf(&quot;======&quot;));&#xA;&#xA;if(row3.CAR_PARK_NO.indexOf(&quot;======&quot;) != -1){&#xA;&#x9;continue;&#xA;}&#xA;else{&#xA;&#x9;row4.CAR_PARK_NO =  row3.CAR_PARK_NO;&#xA;&#x9;if(row3.BLOCK_NO.equals(&quot;-&quot;)){&#xA;&#x9;&#x9;row3.BLOCK_NO = row3.BLOCK_NO.replace(&quot;-&quot;,&quot;&quot;);&#x9;&#xA;&#x9;}&#xA;&#x9;row4.BLOCK_NO =  row3.BLOCK_NO;&#xA;&#x9;row4.STREET_NAME =  row3.STREET_NAME;&#xA;&#x9;row4.X_COORD =  row3.X_COORD;&#xA;&#x9;row4.Y_COORD =  row3.Y_COORD;&#xA;&#x9;row4.CAR_PARK_TYPE =  row3.CAR_PARK_TYPE;&#xA;&#x9;row4.TYPE_OF_PARKING_SYSTEM =  row3.TYPE_OF_PARKING_SYSTEM;&#xA;&#x9;row4.SHORT_TERM_PARKING =  row3.SHORT_TERM_PARKING;&#xA;&#x9;row4.FREE_PARKING =  row3.FREE_PARKING;&#xA;&#x9;row4.NIGHT_PARKING = &#x9;row3.NIGHT_PARKING;&#xA;&#x9;row4.PARK___RIDE_SCHEME_____ =  row3.PARK___RIDE_SCHEME_____;&#xA;}"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -280,7 +280,7 @@
   </node>
   <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream"/>
     <elementParameter field="FILE" name="FILENAME" value="context.dirHdbParkinglist+&quot;/&quot;+context.fileHdbParkinglist"/>
@@ -324,24 +324,18 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value=""/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="carpark_update_local_db"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_cGFs8PrCEeSUccz3STGa3Q"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="load_carpark_database_table"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ukWn8P1HEeSXt_Sr3zqGCQ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="cont1"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
-    <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="dirHdbInput"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.dirHdbParkinglist"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="fileHdbInput"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.fileHdbParkinglist"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
@@ -466,7 +460,6 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
   </connection>
   <subjob>
@@ -476,11 +469,6 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>

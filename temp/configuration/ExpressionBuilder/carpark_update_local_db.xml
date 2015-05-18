@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="&quot;Type:&quot;+hdb_CAR_PARK_TYPE+&quot;\n&quot;+&quot;Payment:&quot;+hdb_TYPE_OF_PARKING_SYSTEM+&quot;\n&quot;+&quot;Short-Term:&quot;+hdb_SHORT_TERM_PARKING+&quot;\n&quot;+&quot;Free:&quot;+hdb_FREE_PARKING+&quot;\n&quot;+&quot;Night:&quot;+hdb_NIGHT_PARKING+&quot;\n&quot;+&quot;Park &amp; Ride:&quot;+hdb_PARK__RIDE_SCHEME___">
+  <variables name="hdb.hdb_CAR_PARK_NO" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_BLOCK_NO" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_STREET_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_X_COORD" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="hdb.hdb_Y_COORD" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="hdb.hdb_CAR_PARK_TYPE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_TYPE_OF_PARKING_SYSTEM" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_SHORT_TERM_PARKING" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_FREE_PARKING" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_NIGHT_PARKING" value="null" talendType="id_String" nullable="true"/>
+  <variables name="hdb.hdb_PARK___RIDE_SCHEME_____" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.id" value="null" talendType="id_String"/>
+  <variables name="database.cms_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.address" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.capacity" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="database.zone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.latitude" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="database.longitude" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="database.x_coord" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="database.y_coord" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="database.rates" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.operating_hours" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.data_provider" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.geom" value="null" talendType="id_String" nullable="true"/>
+  <variables name="database.remarks" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

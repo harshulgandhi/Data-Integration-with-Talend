@@ -5,7 +5,7 @@
     <contextParameter comment="" name="fileHdbInput" prompt="fileHdbInput?" promptNeeded="false" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="dirHdbInput" prompt="dirHdbInput?" promptNeeded="false" type="id_String" value="C:/Users/harshul/talend-home/carpark_static_import/Input/"/>
+    <contextParameter comment="" name="dirHdbInput" prompt="dirHdbInput?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/carpark_static_import/Input"/>
     <contextParameter comment="" name="fileHdbInput" prompt="fileHdbInput?" promptNeeded="false" type="id_String" value="hdb_carpark_data.csv"/>
   </talendfile:ContextType>
 </xmi:XMI>
