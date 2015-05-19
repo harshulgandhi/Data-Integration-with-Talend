@@ -236,40 +236,6 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="carpark_alls" name="copyOfhdb_lookup_database">
-      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="cms_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="capacity" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="zone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="rates" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="operating_hours" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="FLOW" label="carpark_alls" name="copyOfoutput_to_file">
-      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="cms_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="capacity" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="zone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="rates" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="operating_hours" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
     <metadata connector="FLOW" label="carpark_alls" name="hdb_lookup_database">
       <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="cms_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -277,26 +243,15 @@
       <column comment="" key="false" length="2147483647" name="address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="capacity" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="zone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="rates" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="operating_hours" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="hdb_CAR_PARK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_BLOCK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_STREET_NAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_X_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_Y_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_CAR_PARK_TYPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_TYPE_OF_PARKING_SYSTEM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_SHORT_TERM_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_FREE_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_NIGHT_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="hdb_PARK___RIDE_SCHEME_____" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" label="carpark_alls" name="output_to_file">
       <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -314,110 +269,43 @@
       <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="hdb_CAR_PARK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_BLOCK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_STREET_NAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_X_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_Y_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_CAR_PARK_TYPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_TYPE_OF_PARKING_SYSTEM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_SHORT_TERM_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_FREE_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_NIGHT_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="hdb_PARK___RIDE_SCHEME_____" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="copyOfhdb_lookup_database">
-        <mapperTableEntries name="id" expression="database.id " type="id_String"/>
+      <outputTables sizeState="INTERMEDIATE" name="hdb_lookup_database">
+        <mapperTableEntries name="id" expression="database.id" type="id_String"/>
+        <mapperTableEntries name="cms_id" expression="database.cms_id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="name" expression="hdb.hdb_CAR_PARK_NO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="address" expression="hdb.hdb_BLOCK_NO +&quot; &quot;+hdb.hdb_STREET_NAME " type="id_String" nullable="true"/>
+        <mapperTableEntries name="capacity" expression="(int)database.capacity" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="zone" expression="&quot;HDB&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="latitude" expression="(float)((hdb.hdb_Y_COORD/1843.0)+60.9759)/60 " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="longitude" expression="(float)((hdb.hdb_X_COORD/1855.0)+6214.9051)/60 " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="x_coord" expression="hdb.hdb_X_COORD" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="y_coord" expression="hdb.hdb_Y_COORD" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="rates" expression="database.rates" type="id_String" nullable="true"/>
+        <mapperTableEntries name="operating_hours" expression="database.operating_hours" type="id_String" nullable="true"/>
+        <mapperTableEntries name="data_provider" expression="&quot;HDB&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="geom" expression="database.geom" type="id_String" nullable="true"/>
+        <mapperTableEntries name="remarks" expression="&quot;Type:&quot;+hdb.hdb_CAR_PARK_TYPE+&quot;\n&quot;+&quot;Payment:&quot;+hdb.hdb_TYPE_OF_PARKING_SYSTEM+&quot;\n&quot;+&quot;Short-Term:&quot;+hdb.hdb_SHORT_TERM_PARKING+&quot;\n&quot;+&quot;Free:&quot;+hdb.hdb_FREE_PARKING+&quot;\n&quot;+&quot;Night:&quot;+hdb.hdb_NIGHT_PARKING+&quot;\n&quot;+&quot;Park &amp; Ride:&quot;+hdb.hdb_PARK___RIDE_SCHEME_____ " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="output_to_file">
+        <mapperTableEntries name="id" expression="database.id" type="id_String"/>
         <mapperTableEntries name="cms_id" expression="database.cms_id" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="hdb.hdb_CAR_PARK_NO " type="id_String" nullable="true"/>
         <mapperTableEntries name="address" expression="hdb.hdb_BLOCK_NO +&quot; &quot;+hdb.hdb_STREET_NAME " type="id_String" nullable="true"/>
         <mapperTableEntries name="capacity" expression="database.capacity" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="zone" expression="&quot;HDB&quot;" type="id_String" nullable="true"/>
-        <mapperTableEntries name="latitude" expression="((hdb_Y_COORD/1843.0)+60.9759)/60 " type="id_Double" nullable="true"/>
-        <mapperTableEntries name="longitude" expression="((hdb_X_COORD/1855.0)+6214.9051)/60 " type="id_Double" nullable="true"/>
-        <mapperTableEntries name="x_coord" expression="hdb.hdb_X_COORD " type="id_Double" nullable="true"/>
-        <mapperTableEntries name="y_coord" expression="hdb.hdb_Y_COORD " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="latitude" expression="(double)((hdb.hdb_Y_COORD/1843.0)+60.9759)/60 " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="longitude" expression="(double)((hdb.hdb_X_COORD/1855.0)+6214.9051)/60" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="x_coord" expression="(double)hdb.hdb_X_COORD " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="y_coord" expression="(double)hdb.hdb_Y_COORD " type="id_Double" nullable="true"/>
         <mapperTableEntries name="rates" expression="database.rates" type="id_String" nullable="true"/>
         <mapperTableEntries name="operating_hours" expression="database.operating_hours" type="id_String" nullable="true"/>
         <mapperTableEntries name="data_provider" expression="&quot;HDB&quot;" type="id_String" nullable="true"/>
         <mapperTableEntries name="geom" expression="database.geom" type="id_String" nullable="true"/>
-        <mapperTableEntries name="remarks" expression="&quot;Type:&quot;+hdb_CAR_PARK_TYPE+&quot;\n&quot;+&quot;Payment:&quot;+hdb_TYPE_OF_PARKING_SYSTEM+&quot;\n&quot;+&quot;Short-Term:&quot;+hdb_SHORT_TERM_PARKING+&quot;\n&quot;+&quot;Free:&quot;+hdb_FREE_PARKING+&quot;\n&quot;+&quot;Night:&quot;+hdb_NIGHT_PARKING+&quot;\n&quot;+&quot;Park &amp; Ride:&quot;+hdb_PARK__RIDE_SCHEME___ " type="id_String" nullable="true"/>
-      </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="copyOfoutput_to_file">
-        <mapperTableEntries name="id" expression="" type="id_String"/>
-        <mapperTableEntries name="cms_id" type="id_String" nullable="true"/>
-        <mapperTableEntries name="name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="address" type="id_String" nullable="true"/>
-        <mapperTableEntries name="capacity" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="zone" type="id_String" nullable="true"/>
-        <mapperTableEntries name="latitude" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="longitude" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="x_coord" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="y_coord" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="rates" type="id_String" nullable="true"/>
-        <mapperTableEntries name="operating_hours" type="id_String" nullable="true"/>
-        <mapperTableEntries name="data_provider" type="id_String" nullable="true"/>
-        <mapperTableEntries name="geom" type="id_String" nullable="true"/>
-        <mapperTableEntries name="remarks" type="id_String" nullable="true"/>
-      </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="hdb_lookup_database">
-        <mapperTableEntries name="id" type="id_String"/>
-        <mapperTableEntries name="cms_id" type="id_String" nullable="true"/>
-        <mapperTableEntries name="name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="address" type="id_String" nullable="true"/>
-        <mapperTableEntries name="capacity" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="zone" type="id_String" nullable="true"/>
-        <mapperTableEntries name="latitude" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="longitude" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="x_coord" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="y_coord" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="rates" type="id_String" nullable="true"/>
-        <mapperTableEntries name="operating_hours" type="id_String" nullable="true"/>
-        <mapperTableEntries name="data_provider" type="id_String" nullable="true"/>
-        <mapperTableEntries name="geom" type="id_String" nullable="true"/>
-        <mapperTableEntries name="remarks" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_CAR_PARK_NO" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_BLOCK_NO" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_STREET_NAME" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_X_COORD" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="hdb_Y_COORD" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="hdb_CAR_PARK_TYPE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_TYPE_OF_PARKING_SYSTEM" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_SHORT_TERM_PARKING" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_FREE_PARKING" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_NIGHT_PARKING" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_PARK___RIDE_SCHEME_____" type="id_String" nullable="true"/>
-      </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="output_to_file">
-        <mapperTableEntries name="id" type="id_String"/>
-        <mapperTableEntries name="cms_id" type="id_String" nullable="true"/>
-        <mapperTableEntries name="name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="address" type="id_String" nullable="true"/>
-        <mapperTableEntries name="capacity" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="zone" type="id_String" nullable="true"/>
-        <mapperTableEntries name="latitude" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="longitude" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="x_coord" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="y_coord" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="rates" type="id_String" nullable="true"/>
-        <mapperTableEntries name="operating_hours" type="id_String" nullable="true"/>
-        <mapperTableEntries name="data_provider" type="id_String" nullable="true"/>
-        <mapperTableEntries name="geom" type="id_String" nullable="true"/>
-        <mapperTableEntries name="remarks" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_CAR_PARK_NO" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_BLOCK_NO" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_STREET_NAME" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_X_COORD" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="hdb_Y_COORD" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="hdb_CAR_PARK_TYPE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_TYPE_OF_PARKING_SYSTEM" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_SHORT_TERM_PARKING" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_FREE_PARKING" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_NIGHT_PARKING" type="id_String" nullable="true"/>
-        <mapperTableEntries name="hdb_PARK___RIDE_SCHEME_____" type="id_String" nullable="true"/>
+        <mapperTableEntries name="remarks" expression="&quot;Type:&quot;+hdb.hdb_CAR_PARK_TYPE+&quot;\n&quot;+&quot;Payment:&quot;+hdb.hdb_TYPE_OF_PARKING_SYSTEM+&quot;\n&quot;+&quot;Short-Term:&quot;+hdb.hdb_SHORT_TERM_PARKING+&quot;\n&quot;+&quot;Free:&quot;+hdb.hdb_FREE_PARKING+&quot;\n&quot;+&quot;Night:&quot;+hdb.hdb_NIGHT_PARKING+&quot;\n&quot;+&quot;Park &amp; Ride:&quot;+hdb.hdb_PARK___RIDE_SCHEME_____" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="hdb" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="hdb_CAR_PARK_NO" type="id_String" nullable="true"/>
@@ -643,51 +531,21 @@
       <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="hdb_CAR_PARK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_BLOCK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_STREET_NAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_X_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_Y_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_CAR_PARK_TYPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_TYPE_OF_PARKING_SYSTEM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_SHORT_TERM_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_FREE_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_NIGHT_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="hdb_PARK___RIDE_SCHEME_____" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_cGFs8PrCEeSUccz3STGa3Q-tMap_1-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-    </nodeData>
-  </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="288">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlOutput_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;54.251.108.102&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5433&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;192.168.1.219&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;mapsynq&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="PostgreSQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="PFZxnK6PfzU="/>
+    <elementParameter field="PASSWORD" name="PASS" value="MR9mn+qyJkdNxHpnoZXX3A=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;carpark_alls&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -778,61 +636,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_CAR_PARK_NO"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_BLOCK_NO"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_STREET_NAME"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_X_COORD"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_Y_COORD"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_CAR_PARK_TYPE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_TYPE_OF_PARKING_SYSTEM"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_SHORT_TERM_PARKING"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_FREE_PARKING"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_NIGHT_PARKING"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="hdb_PARK___RIDE_SCHEME_____"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
     </elementParameter>
     <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
@@ -846,26 +649,15 @@
       <column comment="" key="false" length="2147483647" name="address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="capacity" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="zone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="rates" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="operating_hours" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="hdb_CAR_PARK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_BLOCK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_STREET_NAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_X_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_Y_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_CAR_PARK_TYPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_TYPE_OF_PARKING_SYSTEM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_SHORT_TERM_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_FREE_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_NIGHT_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="hdb_PARK___RIDE_SCHEME_____" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="carpark_alls" name="REJECT">
       <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -874,29 +666,108 @@
       <column comment="" key="false" length="2147483647" name="address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="capacity" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="zone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="rates" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="operating_hours" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="hdb_CAR_PARK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_BLOCK_NO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="hdb_STREET_NAME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_X_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="hdb_Y_COORD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_CAR_PARK_TYPE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_TYPE_OF_PARKING_SYSTEM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_SHORT_TERM_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_FREE_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="hdb_NIGHT_PARKING" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="7" name="hdb_PARK___RIDE_SCHEME_____" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="true"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cms_id"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="capacity"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="zone"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="latitude"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="longitude"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="x_coord"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="y_coord"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="rates"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="operating_hours"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="data_provider"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="geom"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="remarks"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="errorCode"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="errorMessage"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="carpark_alls" name="tLogRow_1">
+      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="cms_id" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="capacity" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="zone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="latitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="longitude" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="x_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="17" name="y_coord" nullable="true" pattern="" precision="17" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="rates" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="operating_hours" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="data_provider" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="geom" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_cGFs8PrCEeSUccz3STGa3Q-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+    </nodeData>
   </node>
   <connection connectorName="FLOW" label="hdb" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_2">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
@@ -1064,7 +935,6 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="hdb_lookup_database"/>
   </connection>
   <connection connectorName="FLOW" label="output_to_file" lineStyle="0" metaname="output_to_file" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_2" target="tFileOutputDelimited_1">
@@ -1235,6 +1105,63 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="database"/>
   </connection>
+  <connection connectorName="REJECT" label="row1" lineStyle="0" metaname="REJECT" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlOutput_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cms_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="name"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="address"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="capacity"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zone"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="latitude"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="longitude"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="x_coord"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="y_coord"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="rates"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="operating_hours"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="data_provider"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="geom"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="remarks"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="errorCode"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="errorMessage"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
@@ -1242,11 +1169,6 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlOutput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>

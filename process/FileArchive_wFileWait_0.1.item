@@ -102,7 +102,7 @@
   <node componentName="tLoop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLoop_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="RADIO" name="FORLOOP" value="true"/>
     <elementParameter field="RADIO" name="WHILELOOP" value="false"/>
     <elementParameter field="TEXT" name="FROM" value="1"/>
@@ -117,7 +117,7 @@
   <node componentName="tSleep" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSleep_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="TEXT" name="PAUSE" value="5"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tSleep_1">
@@ -128,7 +128,7 @@
   </node>
   <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;timeStamp_date&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;&quot;"/>
@@ -141,7 +141,7 @@
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="TEXT" name="TO" value="&quot;harshul.gandhi@qi.sg&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;gandhi.harshul.88@gmail.com&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
@@ -173,7 +173,7 @@
   <node componentName="tWaitForFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWaitForFile_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="TEXT" name="WAIT" value="5"/>
     <elementParameter field="TEXT" name="MAX_ITERATIONS" value=""/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Users/harshul/talend-home/tArchive-listening/Input/&quot;+globalMap.get(&quot;timeStamp_date&quot;)"/>
@@ -199,9 +199,9 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="DateFormat dateFormat_date = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);&#xA;DateFormat dateFormat_time = new SimpleDateFormat(&quot;HH-mm-ss&quot;);&#xA;Date date = new Date();&#xA;Date date1 = new Date();&#xA;&#xA;globalMap.put(&quot;timeStamp_date&quot;, dateFormat_date.format(date1));&#xA;globalMap.put(&quot;timeStamp_time&quot;, dateFormat_time.format(date));&#xA;//globalMap.put(&quot;timeStamp&quot;, dateFormat.format(date));&#xA;System.out.println(&quot;TIME IS : &quot;+globalMap.get(&quot;timeStamp_time&quot;));&#xA;System.out.println(&quot;DATE IS : &quot;+globalMap.get(&quot;timeStamp_date&quot;));&#xA;Calendar cal = Calendar.getInstance();&#xA;cal.setTime(date1);&#xA;globalMap.put(&quot;timeStamp_month&quot;, Integer.toString(cal.get(Calendar.MONTH)+1));&#xA;globalMap.put(&quot;timeStamp_year&quot;, Integer.toString(cal.get(Calendar.YEAR)));&#xA;globalMap.put(&quot;timeStamp_day&quot;, Integer.toString(cal.get(Calendar.DAY_OF_MONTH)));&#xA;&#xA;System.out.println(&quot;month : &quot;+globalMap.get(&quot;timeStamp_month&quot;)+&quot; :: day : &quot;+globalMap.get(&quot;timeStamp_day&quot;)+&quot; :: year : &quot;+globalMap.get(&quot;timeStamp_year&quot;));&#xA;System.out.println(&quot;=========================================================&quot;);&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.text.DateFormat;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;&#xA;import java.util.Calendar;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.text.DateFormat;&#xA;import java.text.SimpleDateFormat;&#xA;import java.util.Date;&#xA;import java.util.Calendar;&#xA;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1">
       <column defaultValue="" key="false" length="0" name="CURRENT_ITERATION" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
@@ -215,7 +215,7 @@
   </node>
   <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/harshul/talend-home/tArchive-listening/Input/&quot;+globalMap.get(&quot;timeStamp_date&quot;)+&quot;/FullSet_log.csv&quot;"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
     <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Users/harshul/talend-home/TOS_DI-Win32-20141207_1530-V5.6.1/workspace&quot;"/>
@@ -238,7 +238,7 @@
   </node>
   <node componentName="tFileArchive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileArchive_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="DIRECTORY" name="SOURCE" value="&quot;C:/Users/harshul/talend-home/tArchive-listening/Input/&quot;+globalMap.get(&quot;timeStamp_year&quot;)+&quot;/&quot;+globalMap.get(&quot;timeStamp_month&quot;)+&quot;/&quot;+globalMap.get(&quot;timeStamp_day&quot;)"/>
     <elementParameter field="CHECK" name="SUB_DIRECTROY" value="true"/>
     <elementParameter field="FILE" name="TARGET" value="&quot;C:/Users/harshul/talend-home/tArchive-listening/Output/archived_files/&quot;+globalMap.get(&quot;timeStamp_year&quot;)+&quot;/&quot;+globalMap.get(&quot;timeStamp_month&quot;)+&quot;/&quot;+globalMap.get(&quot;timeStamp_day&quot;)+&quot;/FullSet_&quot;+globalMap.get(&quot;timeStamp_time&quot;)+&quot;.zip&quot;"/>
@@ -268,7 +268,7 @@
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value=""/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="ContextVarPractice"/>
@@ -296,6 +296,16 @@
     <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tGPGDecrypt" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tGPGDecrypt_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="FILE" name="INPUT_FILE" value="&quot;C:/Masters/Internship/TOS_DI-Win32-20150508_1414-V5.6.2/workspace/message.txt.asc&quot;"/>
+    <elementParameter field="FILE" name="OUTPUT_FILE" value="&quot;C:/Masters/Internship/TOS_DI-Win32-20150508_1414-V5.6.2/workspace/message.txt&quot;"/>
+    <elementParameter field="FILE" name="GPGBIN" value="&quot;/usr/bin/gpg&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" value="PoLvNyVG2XWndNDdLn696A=="/>
+    <elementParameter field="CHECK" name="NOTTY" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tLoop_1" offsetLabelX="10" offsetLabelY="0" source="tLoop_1" target="tSleep_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
@@ -426,6 +436,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tGPGDecrypt_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>

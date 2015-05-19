@@ -2,6 +2,7 @@ package routines;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.Map;
 /*
  * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
  * it must be before the "{talendTypes}" key.
@@ -26,7 +27,7 @@ public class ConfigParser {
      * helloExample: not return value, only print "hello" + message.
      * 
      * 
-     * {talendTypes} String
+     * {talendTypes} Scanner
      * 
      * {Category} User Defined
      * 
@@ -41,31 +42,100 @@ public class ConfigParser {
         System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
     }
     
-	
-    public static void main(String[] Args) throws FileNotFoundException{
-		ConfigParser cp_obj = new ConfigParser();
-		Scanner scanObj = cp_obj.readFile("C:/Users/harshul/talend-home/carpark_static_import/Input","config.txt");
-		cp_obj.parseFile(scanObj);
-		scanObj.close();
-	}
-	
-	
-    public Scanner readFile(String path, String fileName) throws FileNotFoundException{
+
+    /**
+     * readFile: returns scanner object for a particular file
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("file path") input: Path of the file to be parsed.
+     * 
+     * {param} string("file name") input: Name of the file to be parsed.
+     * 
+     * {example} readFile("C:/Users/harshul/talend-home/carpark_static_import/Input","config.txt") #
+     */
+	public Scanner readFile(String path, String fileName)  throws FileNotFoundException{
 		FileInputStream inFile = new FileInputStream(path+"/"+fileName);
 		Scanner scan = new Scanner(inFile);
-		System.out.println("Reading line by scanner class");
+		System.out.println("Reading line by line scanner class");
 
 		return scan;
 	}
 
-	public void parseFile(Scanner scan){
+	/**
+     * parseFile: parse file read by readFile method and store values in globalMap
+     * 
+     * 
+     * {talendTypes} 
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("file path") input: Path of the file to be parsed.
+     * 
+     * {param} string("file name") input: Name of the file to be parsed.
+     * 
+     * {param} HashMap("global map") input: Talend globalMap.
+     * 
+     * {example} readFile("C:/Users/harshul/talend-home/carpark_static_import/Input","config.txt") #
+     */
+	public void parseFile(String path, String fileName, Map<String,Object> globalMap) throws FileNotFoundException{
+		Scanner scan = readFile(path,fileName);
+		//HashMap<String,String> hm = new HashMap<String,String>();	 This will be replaced by talend's globla map
+		String separator_character = "";
+		String comment_character = "";
 		int i = 0;
 		while(scan.hasNext()){
-			i++;
-			System.out.println("Line "+i+" content: "+scan.nextLine());
-		}
+			String currLine = scan.nextLine();
 
-		
+			if(i<=1){
+				System.out.println("Inside if i <= 1 with line : "+currLine);
+				if(currLine.trim().length() > 1){
+						System.out.println("Separator/comment character should be of lenth one!");
+						break;
+				}
+				else{
+					if(i == 0){ separator_character = currLine;}
+					else if(i == 1){ comment_character = currLine;}
+				}
+			}
+			else {
+				if(currLine.indexOf(comment_character) != 0){
+					String key_value[] = currLine.split(separator_character);
+					globalMap.put(key_value[0],key_value[1]);
+				}
+			}
+
+			i++;
+		//	System.out.println("Line "+i+" content: "+currLine);
+		}
 	}
+	
+    /*
+     * For testing purpose:
+     * This is to run this class as a 
+     * separate java program
+    */
+//    public static void main(String[] Args) throws FileNotFoundException{
+//		ConfigParser cp_obj = new ConfigParser();
+//		Scanner scanObj = cp_obj.readFile("C:/Users/harshul/talend-home/carpark_static_import/Input","config.txt");
+//		cp_obj.parseFile(scanObj);
+//		scanObj.close();
+//	}
+	
+    /*
+     * For testing purpose:
+     * This is to run this class as a 
+     * separate java program
+    */
+//	public void printHashMap(HashMap<String,String> hm){
+//		System.out.println("Printing hash map \n ");
+//		for (String key:hm.keySet()){
+//			System.out.println(key+" :: "+hm.get(key));
+//		}		
+//	}
+
 
 }
