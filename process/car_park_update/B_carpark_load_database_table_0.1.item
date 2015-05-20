@@ -398,7 +398,7 @@
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
     <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="ConfigParser cpObj = new ConfigParser();&#xA;cpObj.parseFile(context.configFilePath, context.configFileName,globalMap);&#xA;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="ConfigParser cpObj = new ConfigParser();&#xA;cpObj.parseFile(context.configFilePath, context.configFileName);&#xA;System.out.println(globalMap.get(&quot;cert_file&quot;));&#xA;System.out.println(globalMap.get(&quot;base_folder&quot;));&#xA;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>

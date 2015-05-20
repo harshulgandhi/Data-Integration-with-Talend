@@ -271,7 +271,7 @@
       <column comment="" key="false" length="255" name="remarks" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="hdb_lookup_database">
         <mapperTableEntries name="id" expression="database.id" type="id_String"/>

@@ -60,7 +60,7 @@ public class ConfigParser {
 	public Scanner readFile(String path, String fileName)  throws FileNotFoundException{
 		FileInputStream inFile = new FileInputStream(path+"/"+fileName);
 		Scanner scan = new Scanner(inFile);
-		System.out.println("Reading line by line scanner class");
+		//System.out.println("Reading line by line scanner class");
 
 		return scan;
 	}
@@ -91,7 +91,7 @@ public class ConfigParser {
 			String currLine = scan.nextLine();
 
 			if(i<=1){
-				System.out.println("Inside if i <= 1 with line : "+currLine);
+				//System.out.println("Inside if i <= 1 with line : "+currLine);
 				if(currLine.trim().length() > 1){
 						System.out.println("Separator/comment character should be of lenth one!");
 						break;
@@ -104,12 +104,13 @@ public class ConfigParser {
 			else {
 				if(currLine.indexOf(comment_character) != 0){
 					String key_value[] = currLine.split(separator_character);
+					//System.out.println("Key value being inserted are : "+key_value[0]+"::"+key_value[1]);
 					globalMap.put(key_value[0],key_value[1]);
 				}
 			}
 
 			i++;
-		//	System.out.println("Line "+i+" content: "+currLine);
+			//System.out.println("Line "+i+" content: "+currLine);
 		}
 	}
 	

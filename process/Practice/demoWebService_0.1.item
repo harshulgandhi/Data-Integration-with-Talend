@@ -93,7 +93,7 @@
   <node componentName="tHttpRequest" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHttpRequest_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="TEXT" name="URI" value="&quot;https://maps.googleapis.com/maps/api/geocode/json?address=122+Flinders+St,+Darlinghurst,+NSW,+Australia&amp;sensor=false&amp;key=AIzaSyDuQLu3LBNArouXMkg-mtKxlzgn_xigX_I&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD_CHOSED" value="GET"/>
     <elementParameter field="FILE" name="POST_PARAMS_FROM_FILE" value=""/>
@@ -113,7 +113,7 @@
   <node componentName="tFileOutputJSON" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputJSON_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/harshul/talend-home/demo/out-webservice.json&quot;"/>
     <elementParameter field="CHECK" name="GENERATE_JSON_ARRAY" value="true"/>
     <elementParameter field="TEXT" name="DATABLOCKNAME" value="&quot;data&quot;"/>
@@ -126,7 +126,7 @@
   <node componentName="tFileInputJSON" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputJSON_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="CHECK" name="READBYXPATH" value="true"/>
     <elementParameter field="CHECK" name="USEURL" value="false"/>
     <elementParameter field="TEXT" name="URLPATH" value="&quot;https://maps.googleapis.com/maps/api/geocode/json?address=122+Flinders+St,+Darlinghurst,+NSW,+Australia&amp;sensor=false&amp;key=AIzaSyDuQLu3LBNArouXMkg-mtKxlzgn_xigX_I&quot;"/>
@@ -175,9 +175,11 @@
   <node componentName="tExtractJSONFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractJSONFields_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="CLOSED_LIST" name="READ_BY" value="XPATH"/>
     <elementParameter field="PREV_COLUMN_LIST" name="JSONFIELD" value="long_name"/>
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/ResponseContent/results/address_components&quot;"/>
+    <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.bills.bill.line[*]&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="long_name"/>
       <elementValue elementRef="QUERY" value=""/>
@@ -191,6 +193,14 @@
       <elementValue elementRef="QUERY" value=""/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
+      <elementValue elementRef="SCHEMA_COLUMN" value="long_name"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="short_name"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="types"/>
+      <elementValue elementRef="QUERY" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100"/>
@@ -212,10 +222,10 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="64">
+  <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWriteJSONField_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="COLUMN_LIST" name="JSONFIELD" value=""/>
     <elementParameter field="TABLE" name="ROOT">
       <elementValue elementRef="PATH" value="/results"/>
@@ -253,6 +263,30 @@
     <elementParameter field="CHECK" name="COMPACT_FORMAT" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWriteJSONField_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="try{&#xA;&#x9;&#x9;FileReader fileReaderPk = new FileReader(&quot;C:/Masters/Internship/QI/carpark_static_import/Input/QI_HDB_4.pem&quot;);&#xA;&#x9;    PEMParser keyReaderPk = new PEMParser(fileReaderPk);&#xA;&#xA;&#x9;    JcaPEMKeyConverter converterPk = new JcaPEMKeyConverter();&#xA;&#x9;    PEMDecryptorProvider decryptionProvPk = new JcePEMDecryptorProviderBuilder().build(&quot;invent2006&quot;.toCharArray());&#xA;&#xA;&#x9;    Object keyPairPk = keyReaderPk.readObject();&#xA;&#x9;    PrivateKeyInfo keyInfoPk;&#xA;&#xA;&#x9;    if (keyPairPk instanceof PEMEncryptedKeyPair) {&#xA;&#x9;        PEMKeyPair decryptedKeyPair = ((PEMEncryptedKeyPair) keyPairPk).decryptKeyPair(decryptionProvPk);&#xA;&#x9;        keyInfoPk = decryptedKeyPair.getPrivateKeyInfo();&#xA;&#x9;    } else {&#xA;&#x9;        keyInfoPk = ((PEMKeyPair) keyPairPk).getPrivateKeyInfo();&#xA;&#x9;    }&#xA;&#xA;&#x9;    keyReaderPk.close();&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;PrivateKey pk = converterPk.getPrivateKey(keyInfoPk);&#xA;&#xA;&#xA;&#x9;&#x9;FileReader fileReaderPub = new FileReader(&quot;C:/Masters/Internship/QI/carpark_static_import/Input/QI_HDB_4.pem&quot;);&#xA;&#x9;    PEMParser keyReaderPub = new PEMParser(fileReaderPub);&#xA;&#xA;&#x9;    JcaPEMKeyConverter converterPub = new JcaPEMKeyConverter();&#xA;&#x9;    PEMDecryptorProvider decryptionProvPub = new JcePEMDecryptorProviderBuilder().build(&quot;invent2006&quot;.toCharArray());&#xA;&#xA;&#x9;    Object keyPairPub = keyReaderPub.readObject();&#xA;&#x9;    SubjectPublicKeyInfo keyInfoPub;&#xA;&#xA;&#x9;    if (keyPairPub instanceof PEMEncryptedKeyPair) {&#xA;&#x9;        PEMKeyPair decryptedKeyPair = ((PEMEncryptedKeyPair) keyPairPub).decryptKeyPair(decryptionProvPub);&#xA;&#x9;        keyInfoPub = decryptedKeyPair.getPublicKeyInfo();&#xA;&#x9;    } else {&#xA;&#x9;        keyInfoPub = ((PEMKeyPair) keyPairPub).getPublicKeyInfo();&#xA;&#x9;    }&#xA;&#xA;&#x9;    keyReaderPub.close();&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;PublicKey pubk =  converterPub.getPublicKey(keyInfoPub);&#xA;&#xA;&#x9;&#x9;byte[] data = &quot;test&quot;.getBytes(&quot;UTF8&quot;);&#xA;&#xA;        Signature sig = Signature.getInstance(&quot;SHA1WithRSA&quot;);&#xA;        sig.initSign(pk);&#xA;        sig.update(data);&#xA;        byte[] signatureBytes = sig.sign();&#xA;        System.out.println(&quot;Singature:&quot; + new BASE64Encoder().encode(signatureBytes));&#xA;&#xA;        sig.initVerify(pubk);&#xA;        sig.update(data);&#xA;        System.out.println(sig.verify(signatureBytes));&#xA;&#xA;&#x9;&#x9;}catch(Exception e){&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;e.printStackTrace();&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#xA;&#xA;&#x9;/*&#xA;&#x9;&#xA;&#x9;private PublicKey readPublicKey(String privateKeyPath, String keyPassword) throws IOException {&#xA;&#xA;&#x9;    FileReader fileReader = new FileReader(privateKeyPath);&#xA;&#x9;    PEMParser keyReader = new PEMParser(fileReader);&#xA;&#xA;&#x9;    JcaPEMKeyConverter converter = new JcaPEMKeyConverter();&#xA;&#x9;    PEMDecryptorProvider decryptionProv = new JcePEMDecryptorProviderBuilder().build(keyPassword.toCharArray());&#xA;&#xA;&#x9;    Object keyPair = keyReader.readObject();&#xA;&#x9;    SubjectPublicKeyInfo keyInfo;&#xA;&#xA;&#x9;    if (keyPair instanceof PEMEncryptedKeyPair) {&#xA;&#x9;        PEMKeyPair decryptedKeyPair = ((PEMEncryptedKeyPair) keyPair).decryptKeyPair(decryptionProv);&#xA;&#x9;        keyInfo = decryptedKeyPair.getPublicKeyInfo();&#xA;&#x9;    } else {&#xA;&#x9;        keyInfo = ((PEMKeyPair) keyPair).getPublicKeyInfo();&#xA;&#x9;    }&#xA;&#xA;&#x9;    keyReader.close();&#xA;&#xA;&#x9;    return converter.getPublicKey(keyInfo);&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;&#xA;&#x9;private PrivateKey readPrivateKey(String privateKeyPath, String keyPassword) throws IOException {&#xA;&#x9;&#x9;&#xA;&#x9;    FileReader fileReader = new FileReader(privateKeyPath);&#xA;&#x9;    PEMParser keyReader = new PEMParser(fileReader);&#xA;&#xA;&#x9;    JcaPEMKeyConverter converter = new JcaPEMKeyConverter();&#xA;&#x9;    PEMDecryptorProvider decryptionProv = new JcePEMDecryptorProviderBuilder().build(keyPassword.toCharArray());&#xA;&#xA;&#x9;    Object keyPair = keyReader.readObject();&#xA;&#x9;    PrivateKeyInfo keyInfo;&#xA;&#xA;&#x9;    if (keyPair instanceof PEMEncryptedKeyPair) {&#xA;&#x9;        PEMKeyPair decryptedKeyPair = ((PEMEncryptedKeyPair) keyPair).decryptKeyPair(decryptionProv);&#xA;&#x9;        keyInfo = decryptedKeyPair.getPrivateKeyInfo();&#xA;&#x9;    } else {&#xA;&#x9;        keyInfo = ((PEMKeyPair) keyPair).getPrivateKeyInfo();&#xA;&#x9;    }&#xA;&#xA;&#x9;    keyReader.close();&#xA;&#xA;&#x9;    return converter.getPrivateKey(keyInfo);&#xA;&#x9;}*/&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.io.FileReader;&#xA;import java.io.IOException;&#xA;import java.security.PrivateKey;&#xA;import java.security.PublicKey;&#xA;import java.security.Signature;&#xA;&#xA;import org.bouncycastle.asn1.pkcs.PrivateKeyInfo;&#xA;import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo;&#xA;import org.bouncycastle.openssl.PEMDecryptorProvider;&#xA;import org.bouncycastle.openssl.PEMEncryptedKeyPair;&#xA;import org.bouncycastle.openssl.PEMKeyPair;&#xA;import org.bouncycastle.openssl.PEMParser;&#xA;import org.bouncycastle.openssl.jcajce.JcaPEMKeyConverter;&#xA;import org.bouncycastle.openssl.jcajce.JcePEMDecryptorProviderBuilder;&#xA;import sun.misc.BASE64Encoder;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;bcpkix-jdk15on-1.52.jar&quot;"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_2"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;bcprov-jdk15on-1.52.jar&quot;"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tHttpRequest_1" offsetLabelX="0" offsetLabelY="0" source="tHttpRequest_1" target="tFileOutputJSON_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
@@ -292,6 +326,21 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWriteJSONField_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_2"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>

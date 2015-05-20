@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:WSDLSchemaConnection xmi:id="_iv5v4P6vEeSB64BdlbokBQ" name="repository.metadataWSDLSchema" dataPackage="_iv5v4f6vEeSB64BdlbokBQ" WSDL="https://services2s.nicehomes.com.sg/webapp/BN22WSCPKAvail/BN22JCarparkAvailabilityEnqService/WEB-INF/wsdl/BN22JCarparkAvailabilityEnqService.wsd" methodName="GET" parameters="QI:w&#xA;HDB:w&#xA;20150520:w&#xA;124130:w&#xA;YaBZjoLsonmH0HVpyBVWdwSuG6u7vJgk1dRNd+ycVZLAF1Lpha1RbiahuGc6WJ/Wzg+DcYADsRWj:w&#xA;" UserName="" Password="" proxyHost="" proxyPort="" proxyUser="" proxyPassword="" timeOut="20"/>
+  <TalendMetadata:GenericPackage xmi:id="_iv5v4f6vEeSB64BdlbokBQ" name="repository.metadataWSDLSchema" dataManager="_iv5v4P6vEeSB64BdlbokBQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iv5v4v6vEeSB64BdlbokBQ" id="_ERlowP6uEeSB64BdlbokBQ" label="metadata"/>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
