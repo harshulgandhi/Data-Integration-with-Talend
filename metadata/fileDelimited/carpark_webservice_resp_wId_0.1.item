@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_jPeuUP-gEeSbe5wA0zXD2g" name="carpark_webservice_resp_wId" dataPackage="_jPeuUf-gEeSbe5wA0zXD2g" Server="Localhost 127.0.0.1" FilePath="C:/Masters/Internship/TOS_DI-Win32-20150508_1414-V5.6.2/workspace/carpark_webservice_res_wId.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jPeuUf-gEeSbe5wA0zXD2g" name="default" dataManager="_jPeuUP-gEeSbe5wA0zXD2g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jPeuUv-gEeSbe5wA0zXD2g" id="_X79LoP-gEeSbe5wA0zXD2g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPeuU_-gEeSbe5wA0zXD2g" label="cpkNo" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPeuVP-gEeSbe5wA0zXD2g" label="lotType" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPeuVf-gEeSbe5wA0zXD2g" label="lotsAvlbty" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jPeuVv-gEeSbe5wA0zXD2g" label="id" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
