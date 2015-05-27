@@ -186,7 +186,7 @@
       <column comment="" key="false" length="10" name="status" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="carpark_wsResp_wStatus">
         <mapperTableEntries name="cpkNo" expression="row1.cpkNo" type="id_String" nullable="true"/>
@@ -344,7 +344,7 @@
       <column comment="" key="false" length="10" name="vacancy" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="updated_result">
         <mapperTableEntries name="status" expression="row3.status =0 " type="id_Integer" nullable="true"/>
@@ -574,7 +574,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="updated_result_print"/>
   </connection>
   <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Finding updates in carpark availability and updating parking vacancies table in db"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>

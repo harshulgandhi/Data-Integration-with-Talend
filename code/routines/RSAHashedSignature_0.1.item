@@ -1,0 +1,151 @@
+package routines;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.security.KeyFactory;
+import java.security.MessageDigest;
+import java.security.PrivateKey;
+import java.security.Signature;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import com.sun.org.apache.xml.internal.security.utils.Base64;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class RSAHashedSignature {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static void helloExample(String message) {
+        if (message == null) {
+            message = "World"; //$NON-NLS-1$
+        }
+        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+    }
+    
+    
+    /**
+     * getSignedString: return String, signed based on provided key
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("sender") input: sender attribute for base string.
+     * 
+     * {param} string("receiver") input: receiver attribute for base string.
+     * 
+     * {param} string("path of der key") input: path for der key used for encryption
+     * 
+     * {param} string("current date") input: date on which req is sent
+     * 
+     * {param} string("current time") input: system time when request is sent
+     * 
+     * {example}
+     */
+    public static String getSignedString(String  sender, String  receiver, String date, String time,String  key_file, String  base_folder) throws Exception{
+    	
+//    	Stage 1: get raw signature
+		String base_signature_string = sender+receiver+date+time;
+//		getDateTime("HHmmss");
+		System.out.println("Base String : "+base_signature_string);
+    	
+		
+		//Step 2: Create SHA-1 hash
+    	MessageDigest cript = MessageDigest.getInstance("SHA-1");
+		cript.reset();
+		cript.update(base_signature_string.getBytes("UTF-8"));
+		byte[] b_digest = cript.digest();
+		System.out.println("Hashed String : "+b_digest);
+		
+		//Step 3: Decrypt and sign with a key
+		Signature sign = Signature.getInstance("SHA1withRSA");
+		PrivateKey pk = getPrivateKey(key_file);
+		sign.initSign(pk);
+		sign.update(b_digest);
+		byte[] b1 = sign.sign();
+		String signedString = new String(b1);
+		System.out.println("Signed String : "+signedString);
+		
+		//Step 4: base 64 encode
+		String s2 = new String(Base64.encode(b1));
+		System.out.println("Encoded string:" + s2);
+		
+    	return s2;
+    }
+    
+    
+    /**
+     * getDateTime: return String, date or time
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("format") input: format for date or time.
+     * 
+     * {example}
+     */
+    public static String getDateTime(String format){
+		DateFormat fmt = new SimpleDateFormat(format);
+		Date date = new Date();
+		return (fmt.format(date));
+	}
+    
+    
+    /**
+     * getPrivateKey: returns Private Key from certificate
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("filename") input: path to der certificate.
+     * 
+     * {example}
+     */
+    public static PrivateKey getPrivateKey(String filename) throws Exception {
+		File f = new File(filename);
+		FileInputStream fis = new FileInputStream(f);
+		DataInputStream dis = new DataInputStream(fis);
+		byte[] keyBytes = new byte[(int)f.length()];
+		dis.readFully(keyBytes);
+		dis.close();
+
+		PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(keyBytes);
+		KeyFactory kf = KeyFactory.getInstance("RSA");
+		return kf.generatePrivate(spec);
+	}
+}
