@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ekSvIAUSEeWLWsofXhLDww" name="d-lta-summary" dataPackage="_ekSvIQUSEeWLWsofXhLDww" Server="Localhost 127.0.0.1" Format="WINDOWS" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ekSvIQUSEeWLWsofXhLDww" name="default" dataManager="_ekSvIAUSEeWLWsofXhLDww">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ekSvIgUSEeWLWsofXhLDww" id="_NOFRQAUSEeWLWsofXhLDww" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvIwUSEeWLWsofXhLDww" name="filename" label="filename" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvJAUSEeWLWsofXhLDww" name="total_records" label="total_records" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvJQUSEeWLWsofXhLDww" name="count_load_0" label="count_load_0" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvJgUSEeWLWsofXhLDww" name="count_load_1" label="count_load_1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvJwUSEeWLWsofXhLDww" name="count_load_2" label="count_load_2" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvKAUSEeWLWsofXhLDww" name="count_load_3" label="count_load_3" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvKQUSEeWLWsofXhLDww" name="count_load_4" label="count_load_4" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ekSvKgUSEeWLWsofXhLDww" name="sum_load_1to4" label="sum_load_1to4" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

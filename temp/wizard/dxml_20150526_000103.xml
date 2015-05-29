@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Events>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:48:44" EnglishDescription="Slow traffic" EnglishRoadName="Kallang Paya Lebar Expressway(TPE) " EnglishRoadBegin="Nicoll Highway (Ramp)" EnglishRoadEnd="PIE  Jurong (Exit)" Speed="20" DefaultSpeed="72" Direction="349" Length="502" Load="3" Delay="64" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10017" CountryCode="SG" LocationTableNumber="0" longitude="103.87528" latitude="1.31141"/>
+<Destination LocationCode="10018" CountryCode="SG" LocationTableNumber="0" longitude="103.87487" latitude="1.31362"/>
+<Coordinates>
+<Coordinate longitude="103.87528" latitude="1.31141" Direction="349"/>
+<Coordinate longitude="103.87487" latitude="1.31362" Direction="349"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:30" EnglishDescription="Slow traffic" EnglishRoadName="Kallang Paya Lebar Expressway(TPE) " EnglishRoadBegin="Upper Paya Lebar (Exit)" EnglishRoadEnd="Airport Road (Exit)" Speed="21" DefaultSpeed="70" Direction="56" Length="1225" Load="3" Delay="144" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10020" CountryCode="SG" LocationTableNumber="0" longitude="103.88943" latitude="1.33358"/>
+<Destination LocationCode="10021" CountryCode="SG" LocationTableNumber="0" longitude="103.89394" latitude="1.33663"/>
+<Coordinates>
+<Coordinate longitude="103.88943" latitude="1.33358" Direction="56"/>
+<Coordinate longitude="103.89394" latitude="1.33663" Direction="56"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:38" EnglishDescription="Slow traffic" EnglishRoadName="Airport Road" EnglishRoadBegin="Paya Lebar Road" EnglishRoadEnd="Eunos Link" Speed="22" DefaultSpeed="50" Direction="201" Length="2294" Load="3" Delay="206" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10514" CountryCode="SG" LocationTableNumber="0" longitude="103.8988" latitude="1.34984"/>
+<Destination LocationCode="10515" CountryCode="SG" LocationTableNumber="0" longitude="103.89853" latitude="1.3411"/>
+<Coordinates>
+<Coordinate longitude="103.8988" latitude="1.34984" Direction="194"/>
+<Coordinate longitude="103.89853" latitude="1.3411" Direction="210"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:46:53" EnglishDescription="Slow traffic" EnglishRoadName="Airport Road" EnglishRoadBegin="Eunos Link" EnglishRoadEnd="Paya Lebar Road" Speed="20" DefaultSpeed="50" Direction="19" Length="2177" Load="3" Delay="232" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10515" CountryCode="SG" LocationTableNumber="0" longitude="103.89602" latitude="1.33792"/>
+<Destination LocationCode="10514" CountryCode="SG" LocationTableNumber="0" longitude="103.89855" latitude="1.34607"/>
+<Coordinates>
+<Coordinate longitude="103.89602" latitude="1.33792" Direction="38"/>
+<Coordinate longitude="103.89855" latitude="1.34607" Direction="344"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:56:33" EnglishDescription="Slow traffic" EnglishRoadName="Anchorvale Street" EnglishRoadBegin="Sengkang East Road" EnglishRoadEnd="Fernvale Street" Speed="20" DefaultSpeed="50" Direction="280" Length="1356" Load="3" Delay="143" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10527" CountryCode="SG" LocationTableNumber="0" longitude="103.89211" latitude="1.39637"/>
+<Destination LocationCode="10526" CountryCode="SG" LocationTableNumber="0" longitude="103.88611" latitude="1.39738"/>
+<Coordinates>
+<Coordinate longitude="103.89211" latitude="1.39637" Direction="280"/>
+<Coordinate longitude="103.88611" latitude="1.39738" Direction="280"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:31:33" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 1" EnglishRoadBegin="Upper Thomson Road" EnglishRoadEnd="Ang Mo Kio Avenue 3" Speed="24" DefaultSpeed="70" Direction="101" Length="818" Load="3" Delay="81" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10528" CountryCode="SG" LocationTableNumber="0" longitude="103.82987" latitude="1.36775"/>
+<Destination LocationCode="10529" CountryCode="SG" LocationTableNumber="0" longitude="103.83346" latitude="1.36706"/>
+<Coordinates>
+<Coordinate longitude="103.82987" latitude="1.36775" Direction="101"/>
+<Coordinate longitude="103.83346" latitude="1.36706" Direction="101"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:54:29" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 1" EnglishRoadBegin="Lorong Chuan" EnglishRoadEnd="CTE" Speed="22" DefaultSpeed="72" Direction="282" Length="815" Load="3" Delay="95" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10533" CountryCode="SG" LocationTableNumber="0" longitude="103.86253" latitude="1.35417"/>
+<Destination LocationCode="10532" CountryCode="SG" LocationTableNumber="0" longitude="103.85896" latitude="1.35496"/>
+<Coordinates>
+<Coordinate longitude="103.86253" latitude="1.35417" Direction="282"/>
+<Coordinate longitude="103.85896" latitude="1.35496" Direction="282"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:58:51" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 3" EnglishRoadBegin="Ang Mo Kio Avenue 8" EnglishRoadEnd="CTE" Speed="16" DefaultSpeed="60" Direction="88" Length="1253" Load="3" Delay="216" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10536" CountryCode="SG" LocationTableNumber="0" longitude="103.85198" latitude="1.36918"/>
+<Destination LocationCode="10537" CountryCode="SG" LocationTableNumber="0" longitude="103.85751" latitude="1.36942"/>
+<Coordinates>
+<Coordinate longitude="103.85198" latitude="1.36918" Direction="88"/>
+<Coordinate longitude="103.85751" latitude="1.36942" Direction="88"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:33:13" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 6" EnglishRoadBegin="Yio Chu Kang Road/ Lentor Avenue" EnglishRoadEnd="Ang Mo Kio Avenue 8" Speed="26" DefaultSpeed="60" Direction="159" Length="823" Load="3" Delay="67" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10547" CountryCode="SG" LocationTableNumber="0" longitude="103.84222" latitude="1.38635"/>
+<Destination LocationCode="10548" CountryCode="SG" LocationTableNumber="0" longitude="103.84354" latitude="1.38289"/>
+<Coordinates>
+<Coordinate longitude="103.84222" latitude="1.38635" Direction="159"/>
+<Coordinate longitude="103.84354" latitude="1.38289" Direction="159"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:33:19" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 8" EnglishRoadBegin="Ang Mo Kio Avenue 6" EnglishRoadEnd="Ang Mo Kio Avenue 5" Speed="22" DefaultSpeed="61" Direction="139" Length="656" Load="3" Delay="70" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10552" CountryCode="SG" LocationTableNumber="0" longitude="103.84502" latitude="1.38002"/>
+<Destination LocationCode="10553" CountryCode="SG" LocationTableNumber="0" longitude="103.84673" latitude="1.37801"/>
+<Coordinates>
+<Coordinate longitude="103.84502" latitude="1.38002" Direction="139"/>
+<Coordinate longitude="103.84673" latitude="1.37801" Direction="139"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:47:12" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 8" EnglishRoadBegin="Ang Mo Kio Avenue 3" EnglishRoadEnd="Ang Mo Kio Avenue 1" Speed="12" DefaultSpeed="61" Direction="164" Length="1059" Load="3" Delay="247" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10554" CountryCode="SG" LocationTableNumber="0" longitude="103.85033" latitude="1.36726"/>
+<Destination LocationCode="10555" CountryCode="SG" LocationTableNumber="0" longitude="103.85159" latitude="1.36295"/>
+<Coordinates>
+<Coordinate longitude="103.85033" latitude="1.36726" Direction="164"/>
+<Coordinate longitude="103.85159" latitude="1.36295" Direction="164"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:59:22" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 8" EnglishRoadBegin="Ang Mo Kio Avenue 1" EnglishRoadEnd="Ang Mo Kio Avenue 5" Speed="20" DefaultSpeed="61" Direction="345" Length="1952" Load="3" Delay="228" TMC_Extent="2" TMC_Direction="1">
+<Origin LocationCode="10555" CountryCode="SG" LocationTableNumber="0" longitude="103.85115" latitude="1.36636"/>
+<Destination LocationCode="10553" CountryCode="SG" LocationTableNumber="0" longitude="103.84789" latitude="1.37458"/>
+<Coordinates>
+<Coordinate longitude="103.85115" latitude="1.36636" Direction="331"/>
+<Coordinate longitude="103.84789" latitude="1.37458" Direction="353"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:34:10" EnglishDescription="Slow traffic" EnglishRoadName="Beach Road" EnglishRoadBegin="Jalan Sultan" EnglishRoadEnd="Ophir Road" Speed="11" DefaultSpeed="51" Direction="238" Length="367" Load="3" Delay="90" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10565" CountryCode="SG" LocationTableNumber="0" longitude="103.86171" latitude="1.3011"/>
+<Destination LocationCode="10564" CountryCode="SG" LocationTableNumber="0" longitude="103.86032" latitude="1.30022"/>
+<Coordinates>
+<Coordinate longitude="103.86171" latitude="1.3011" Direction="238"/>
+<Coordinate longitude="103.86032" latitude="1.30022" Direction="238"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:58:32" EnglishDescription="Slow traffic" EnglishRoadName="Bedok North Avenue 3" EnglishRoadBegin="PIE" EnglishRoadEnd="Bedok North Road" Speed="14" DefaultSpeed="61" Direction="169" Length="422" Load="3" Delay="81" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10572" CountryCode="SG" LocationTableNumber="0" longitude="103.93375" latitude="1.3346"/>
+<Destination LocationCode="10571" CountryCode="SG" LocationTableNumber="0" longitude="103.9341" latitude="1.33274"/>
+<Coordinates>
+<Coordinate longitude="103.93375" latitude="1.3346" Direction="169"/>
+<Coordinate longitude="103.9341" latitude="1.33274" Direction="169"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:52:19" EnglishDescription="Slow traffic" EnglishRoadName="Bedok North Road" EnglishRoadBegin="Bedok North Avenue 1" EnglishRoadEnd="Bedok North Avenue 3" Speed="21" DefaultSpeed="61" Direction="76" Length="878" Load="3" Delay="99" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10576" CountryCode="SG" LocationTableNumber="0" longitude="103.92809" latitude="1.33008"/>
+<Destination LocationCode="10577" CountryCode="SG" LocationTableNumber="0" longitude="103.93192" latitude="1.33104"/>
+<Coordinates>
+<Coordinate longitude="103.92809" latitude="1.33008" Direction="76"/>
+<Coordinate longitude="103.93192" latitude="1.33104" Direction="76"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:35:34" EnglishDescription="Slow traffic" EnglishRoadName="Ang Mo Kio Avenue 4" EnglishRoadBegin="Yio Chu Kang Road" EnglishRoadEnd="Ang Mo Kio Avenue 5" Speed="16" DefaultSpeed="50" Direction="162" Length="841" Load="3" Delay="124" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10585" CountryCode="SG" LocationTableNumber="0" longitude="103.83786" latitude="1.3826"/>
+<Destination LocationCode="10584" CountryCode="SG" LocationTableNumber="0" longitude="103.83897" latitude="1.37919"/>
+<Coordinates>
+<Coordinate longitude="103.83786" latitude="1.3826" Direction="162"/>
+<Coordinate longitude="103.83897" latitude="1.37919" Direction="162"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:39" EnglishDescription="Slow traffic" EnglishRoadName="Bras Basah Road" EnglishRoadBegin="Orchard Road" EnglishRoadEnd="Victoria Street" Speed="20" DefaultSpeed="51" Direction="122" Length="595" Load="3" Delay="67" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10621" CountryCode="SG" LocationTableNumber="0" longitude="103.84836" latitude="1.29816"/>
+<Destination LocationCode="10622" CountryCode="SG" LocationTableNumber="0" longitude="103.85055" latitude="1.29681"/>
+<Coordinates>
+<Coordinate longitude="103.84836" latitude="1.29816" Direction="122"/>
+<Coordinate longitude="103.85055" latitude="1.29681" Direction="122"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:54:17" EnglishDescription="Slow traffic" EnglishRoadName="Cairnhill Road" EnglishRoadBegin="Cairnhill Circle" EnglishRoadEnd="Scotts Road" Speed="11" DefaultSpeed="51" Direction="336" Length="583" Load="3" Delay="145" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10662" CountryCode="SG" LocationTableNumber="0" longitude="103.83729" latitude="1.30679"/>
+<Destination LocationCode="10661" CountryCode="SG" LocationTableNumber="0" longitude="103.83624" latitude="1.30918"/>
+<Coordinates>
+<Coordinate longitude="103.83729" latitude="1.30679" Direction="336"/>
+<Coordinate longitude="103.83624" latitude="1.30918" Direction="336"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:49:36" EnglishDescription="Slow traffic" EnglishRoadName="Changi Road" EnglishRoadBegin="Jalan Eunos/ Still Road" EnglishRoadEnd="Geylang Road" Speed="25" DefaultSpeed="50" Direction="259" Length="840" Load="3" Delay="60" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10683" CountryCode="SG" LocationTableNumber="0" longitude="103.90354" latitude="1.31733"/>
+<Destination LocationCode="10684" CountryCode="SG" LocationTableNumber="0" longitude="103.89983" latitude="1.31662"/>
+<Coordinates>
+<Coordinate longitude="103.90354" latitude="1.31733" Direction="259"/>
+<Coordinate longitude="103.89983" latitude="1.31662" Direction="259"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:07" EnglishDescription="Slow traffic" EnglishRoadName="Anson Road" EnglishRoadBegin="Keppel Road" EnglishRoadEnd="Robinson Road/ Maxwell Road" Speed="12" DefaultSpeed="51" Direction="41" Length="609" Load="3" Delay="133" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10685" CountryCode="SG" LocationTableNumber="0" longitude="103.8444" latitude="1.27331"/>
+<Destination LocationCode="10686" CountryCode="SG" LocationTableNumber="0" longitude="103.84619" latitude="1.27538"/>
+<Coordinates>
+<Coordinate longitude="103.8444" latitude="1.27331" Direction="41"/>
+<Coordinate longitude="103.84619" latitude="1.27538" Direction="41"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:37:16" EnglishDescription="Slow traffic" EnglishRoadName="Choa Chu Kang Avenue 4" EnglishRoadBegin="Choa Chu Kang Way" EnglishRoadEnd="Choa Chu Kang Drive" Speed="10" DefaultSpeed="51" Direction="74" Length="440" Load="3" Delay="122" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10695" CountryCode="SG" LocationTableNumber="0" longitude="103.74337" latitude="1.38409"/>
+<Destination LocationCode="10696" CountryCode="SG" LocationTableNumber="0" longitude="103.74526" latitude="1.38465"/>
+<Coordinates>
+<Coordinate longitude="103.74337" latitude="1.38409" Direction="74"/>
+<Coordinate longitude="103.74526" latitude="1.38465" Direction="74"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:53:01" EnglishDescription="Slow traffic" EnglishRoadName="Corporation Road" EnglishRoadBegin="Boon Lay Way" EnglishRoadEnd="Jurong West Avenue 2" Speed="24" DefaultSpeed="60" Direction="336" Length="1119" Load="3" Delay="101" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10735" CountryCode="SG" LocationTableNumber="0" longitude="103.71512" latitude="1.34466"/>
+<Destination LocationCode="10736" CountryCode="SG" LocationTableNumber="0" longitude="103.71317" latitude="1.349"/>
+<Coordinates>
+<Coordinate longitude="103.71512" latitude="1.34466" Direction="336"/>
+<Coordinate longitude="103.71317" latitude="1.349" Direction="336"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:52:51" EnglishDescription="Slow traffic" EnglishRoadName="Eu Tong Sen Street" EnglishRoadBegin="Havelock Road" EnglishRoadEnd="River Valley Road" Speed="19" DefaultSpeed="60" Direction="40" Length="503" Load="3" Delay="64" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10755" CountryCode="SG" LocationTableNumber="0" longitude="103.84576" latitude="1.28727"/>
+<Destination LocationCode="10756" CountryCode="SG" LocationTableNumber="0" longitude="103.84723" latitude="1.289"/>
+<Coordinates>
+<Coordinate longitude="103.84576" latitude="1.28727" Direction="40"/>
+<Coordinate longitude="103.84723" latitude="1.289" Direction="40"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:38:32" EnglishDescription="Slow traffic" EnglishRoadName="Orchard Road" EnglishRoadBegin="Scotts Road" EnglishRoadEnd="Bideford Road" Speed="19" DefaultSpeed="51" Direction="119" Length="510" Load="3" Delay="62" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10798" CountryCode="SG" LocationTableNumber="0" longitude="103.83257" latitude="1.30462"/>
+<Destination LocationCode="10799" CountryCode="SG" LocationTableNumber="0" longitude="103.83459" latitude="1.30353"/>
+<Coordinates>
+<Coordinate longitude="103.83257" latitude="1.30462" Direction="119"/>
+<Coordinate longitude="103.83459" latitude="1.30353" Direction="119"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:50:31" EnglishDescription="Slow traffic" EnglishRoadName="Orchard Road" EnglishRoadBegin="Grange Road" EnglishRoadEnd="Buyong Road" Speed="16" DefaultSpeed="51" Direction="109" Length="647" Load="3" Delay="101" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10800" CountryCode="SG" LocationTableNumber="0" longitude="103.83858" latitude="1.30157"/>
+<Destination LocationCode="10801" CountryCode="SG" LocationTableNumber="0" longitude="103.84132" latitude="1.30061"/>
+<Coordinates>
+<Coordinate longitude="103.83858" latitude="1.30157" Direction="109"/>
+<Coordinate longitude="103.84132" latitude="1.30061" Direction="109"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:53:31" EnglishDescription="Slow traffic" EnglishRoadName="Sengkang East Road" EnglishRoadBegin="Punggol Way" EnglishRoadEnd="Compassvale Street/Anchorvale Street" Speed="13" DefaultSpeed="60" Direction="199" Length="453" Load="3" Delay="101" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10836" CountryCode="SG" LocationTableNumber="0" longitude="103.89577" latitude="1.39917"/>
+<Destination LocationCode="10837" CountryCode="SG" LocationTableNumber="0" longitude="103.8951" latitude="1.39725"/>
+<Coordinates>
+<Coordinate longitude="103.89577" latitude="1.39917" Direction="199"/>
+<Coordinate longitude="103.8951" latitude="1.39725" Direction="199"/>
+</Coordinates>
+</Event>
+<Event Code="1523" TMCEventCode="1622" LastUpdateTime="25/05/2015 15:58:15" EnglishDescription="Heavy traffic" EnglishRoadName="Simei Avenue" EnglishRoadBegin="Upper Changi Road " EnglishRoadEnd="Simei Street 31" Speed="4" DefaultSpeed="71" Direction="320" Length="513" Load="4" Delay="436" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10868" CountryCode="SG" LocationTableNumber="0" longitude="103.9517" latitude="1.3358"/>
+<Destination LocationCode="10869" CountryCode="SG" LocationTableNumber="0" longitude="103.9502" latitude="1.33756"/>
+<Coordinates>
+<Coordinate longitude="103.9517" latitude="1.3358" Direction="320"/>
+<Coordinate longitude="103.9502" latitude="1.33756" Direction="320"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:59:03" EnglishDescription="Slow traffic" EnglishRoadName="Sims Avenue" EnglishRoadBegin="KPE" EnglishRoadEnd="Aljunied Road" Speed="14" DefaultSpeed="50" Direction="76" Length="771" Load="3" Delay="143" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10875" CountryCode="SG" LocationTableNumber="0" longitude="103.8764" latitude="1.31357"/>
+<Destination LocationCode="10876" CountryCode="SG" LocationTableNumber="0" longitude="103.87976" latitude="1.31443"/>
+<Coordinates>
+<Coordinate longitude="103.8764" latitude="1.31357" Direction="76"/>
+<Coordinate longitude="103.87976" latitude="1.31443" Direction="76"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:44:11" EnglishDescription="Slow traffic" EnglishRoadName="Tampines Avenue 4" EnglishRoadBegin="Tampines Avenue 5" EnglishRoadEnd="Tampines Avenue 1" Speed="24" DefaultSpeed="61" Direction="204" Length="1061" Load="3" Delay="98" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10926" CountryCode="SG" LocationTableNumber="0" longitude="103.94082" latitude="1.35033"/>
+<Destination LocationCode="10925" CountryCode="SG" LocationTableNumber="0" longitude="103.93932" latitude="1.3469"/>
+<Coordinates>
+<Coordinate longitude="103.94082" latitude="1.35033" Direction="204"/>
+<Coordinate longitude="103.93932" latitude="1.3469" Direction="204"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:38:57" EnglishDescription="Slow traffic" EnglishRoadName="Telok Blangah Road" EnglishRoadBegin="Henderson Road" EnglishRoadEnd="Keppel Road" Speed="28" DefaultSpeed="60" Direction="105" Length="1851" Load="3" Delay="123" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10929" CountryCode="SG" LocationTableNumber="0" longitude="103.81661" latitude="1.26796"/>
+<Destination LocationCode="10930" CountryCode="SG" LocationTableNumber="0" longitude="103.825" latitude="1.26612"/>
+<Coordinates>
+<Coordinate longitude="103.81661" latitude="1.26796" Direction="120"/>
+<Coordinate longitude="103.825" latitude="1.26612" Direction="67"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:34:07" EnglishDescription="Slow traffic" EnglishRoadName="Tanglin Road" EnglishRoadBegin="Napier Road" EnglishRoadEnd="Orchard Road" Speed="20" DefaultSpeed="51" Direction="66" Length="581" Load="3" Delay="62" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10935" CountryCode="SG" LocationTableNumber="0" longitude="103.82379" latitude="1.30543"/>
+<Destination LocationCode="10936" CountryCode="SG" LocationTableNumber="0" longitude="103.82613" latitude="1.30648"/>
+<Coordinates>
+<Coordinate longitude="103.82379" latitude="1.30543" Direction="66"/>
+<Coordinate longitude="103.82613" latitude="1.30648" Direction="66"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:30:41" EnglishDescription="Slow traffic" EnglishRoadName="Upper Thomson Road" EnglishRoadBegin="Sembawang Road" EnglishRoadEnd="SLE" Speed="22" DefaultSpeed="61" Direction="172" Length="1014" Load="3" Delay="106" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10949" CountryCode="SG" LocationTableNumber="0" longitude="103.81774" latitude="1.40035"/>
+<Destination LocationCode="10948" CountryCode="SG" LocationTableNumber="0" longitude="103.81838" latitude="1.39595"/>
+<Coordinates>
+<Coordinate longitude="103.81774" latitude="1.40035" Direction="172"/>
+<Coordinate longitude="103.81838" latitude="1.39595" Direction="172"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:32:53" EnglishDescription="Slow traffic" EnglishRoadName="Tanjong Katong Road" EnglishRoadBegin="Dunman Road" EnglishRoadEnd="Sims Avenue" Speed="18" DefaultSpeed="51" Direction="357" Length="664" Load="3" Delay="83" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="10960" CountryCode="SG" LocationTableNumber="0" longitude="103.89436" latitude="1.31077"/>
+<Destination LocationCode="10959" CountryCode="SG" LocationTableNumber="0" longitude="103.89419" latitude="1.31373"/>
+<Coordinates>
+<Coordinate longitude="103.89436" latitude="1.31077" Direction="357"/>
+<Coordinate longitude="103.89419" latitude="1.31373" Direction="357"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:35:14" EnglishDescription="Slow traffic" EnglishRoadName="Whitley Road" EnglishRoadBegin="PIE" EnglishRoadEnd="Stevens Road" Speed="17" DefaultSpeed="72" Direction="203" Length="562" Load="3" Delay="91" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10968" CountryCode="SG" LocationTableNumber="0" longitude="103.82704" latitude="1.32449"/>
+<Destination LocationCode="10969" CountryCode="SG" LocationTableNumber="0" longitude="103.82608" latitude="1.32216"/>
+<Coordinates>
+<Coordinate longitude="103.82704" latitude="1.32449" Direction="203"/>
+<Coordinate longitude="103.82608" latitude="1.32216" Direction="203"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:33:35" EnglishDescription="Slow traffic" EnglishRoadName="Clemenceau Avenue" EnglishRoadBegin="Merchant Road" EnglishRoadEnd="River Valley Road" Speed="16" DefaultSpeed="61" Direction="28" Length="374" Load="3" Delay="63" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="10971" CountryCode="SG" LocationTableNumber="0" longitude="103.84242" latitude="1.29075"/>
+<Destination LocationCode="10972" CountryCode="SG" LocationTableNumber="0" longitude="103.84321" latitude="1.29224"/>
+<Coordinates>
+<Coordinate longitude="103.84242" latitude="1.29075" Direction="28"/>
+<Coordinate longitude="103.84321" latitude="1.29224" Direction="28"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:34:43" EnglishDescription="Slow traffic" EnglishRoadName="Yio Chu Kang Road" EnglishRoadBegin="Ang Mo Kio Avenue 5/Buangkok Green" EnglishRoadEnd="Ang Mo Kio Avenue 3/Hougang Avenue 2" Speed="24" DefaultSpeed="61" Direction="181" Length="1009" Load="3" Delay="90" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11037" CountryCode="SG" LocationTableNumber="0" longitude="103.87666" latitude="1.37722"/>
+<Destination LocationCode="11036" CountryCode="SG" LocationTableNumber="0" longitude="103.87656" latitude="1.37273"/>
+<Coordinates>
+<Coordinate longitude="103.87666" latitude="1.37722" Direction="181"/>
+<Coordinate longitude="103.87656" latitude="1.37273" Direction="181"/>
+</Coordinates>
+</Event>
+<Event Code="1523" TMCEventCode="1622" LastUpdateTime="25/05/2015 15:58:47" EnglishDescription="Heavy traffic" EnglishRoadName="Rivervale Drive" EnglishRoadBegin="Punggol Road/Compassvale Street" EnglishRoadEnd="Sengkang East Way" Speed="9" DefaultSpeed="50" Direction="141" Length="989" Load="4" Delay="322" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11138" CountryCode="SG" LocationTableNumber="0" longitude="103.90244" latitude="1.39307"/>
+<Destination LocationCode="11139" CountryCode="SG" LocationTableNumber="0" longitude="103.90471" latitude="1.39022"/>
+<Coordinates>
+<Coordinate longitude="103.90244" latitude="1.39307" Direction="141"/>
+<Coordinate longitude="103.90471" latitude="1.39022" Direction="141"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:50:44" EnglishDescription="Slow traffic" EnglishRoadName="Jalan Buroh" EnglishRoadBegin="Jurong Pier Road" EnglishRoadEnd="Jurong Port Road" Speed="30" DefaultSpeed="71" Direction="87" Length="1181" Load="3" Delay="81" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11159" CountryCode="SG" LocationTableNumber="0" longitude="103.71149" latitude="1.31395"/>
+<Destination LocationCode="11158" CountryCode="SG" LocationTableNumber="0" longitude="103.71649" latitude="1.3142"/>
+<Coordinates>
+<Coordinate longitude="103.71149" latitude="1.31395" Direction="87"/>
+<Coordinate longitude="103.71649" latitude="1.3142" Direction="87"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:55:02" EnglishDescription="Slow traffic" EnglishRoadName="Upper Jurong Road" EnglishRoadBegin="PIE" EnglishRoadEnd="Benoi Road" Speed="23" DefaultSpeed="72" Direction="94" Length="719" Load="3" Delay="75" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11202" CountryCode="SG" LocationTableNumber="0" longitude="103.67451" latitude="1.33051"/>
+<Destination LocationCode="11203" CountryCode="SG" LocationTableNumber="0" longitude="103.6776" latitude="1.33032"/>
+<Coordinates>
+<Coordinate longitude="103.67451" latitude="1.33051" Direction="94"/>
+<Coordinate longitude="103.6776" latitude="1.33032" Direction="94"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:40:46" EnglishDescription="Slow traffic" EnglishRoadName="Kampong Java Road" EnglishRoadBegin="Bukit Timah Road" EnglishRoadEnd="Keng Lee Road" Speed="10" DefaultSpeed="61" Direction="1" Length="507" Load="3" Delay="153" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11089" CountryCode="SG" LocationTableNumber="0" longitude="103.84708" latitude="1.30867"/>
+<Destination LocationCode="11090" CountryCode="SG" LocationTableNumber="0" longitude="103.84713" latitude="1.31071"/>
+<Coordinates>
+<Coordinate longitude="103.84708" latitude="1.30867" Direction="1"/>
+<Coordinate longitude="103.84713" latitude="1.31071" Direction="1"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:59:41" EnglishDescription="Slow traffic" EnglishRoadName="Leng Kee Road" EnglishRoadBegin="Tiong Bahru Road" EnglishRoadEnd="Alexandra Road" Speed="21" DefaultSpeed="50" Direction="283" Length="766" Load="3" Delay="79" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11057" CountryCode="SG" LocationTableNumber="0" longitude="103.81363" latitude="1.29061"/>
+<Destination LocationCode="11056" CountryCode="SG" LocationTableNumber="0" longitude="103.81034" latitude="1.29137"/>
+<Coordinates>
+<Coordinate longitude="103.81363" latitude="1.29061" Direction="283"/>
+<Coordinate longitude="103.81034" latitude="1.29137" Direction="283"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:59:44" EnglishDescription="Slow traffic" EnglishRoadName="Newton Road" EnglishRoadBegin="Newton Circus" EnglishRoadEnd="Thomson Road" Speed="20" DefaultSpeed="61" Direction="39" Length="882" Load="3" Delay="108" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11075" CountryCode="SG" LocationTableNumber="0" longitude="103.8402" latitude="1.31452"/>
+<Destination LocationCode="11076" CountryCode="SG" LocationTableNumber="0" longitude="103.84246" latitude="1.31728"/>
+<Coordinates>
+<Coordinate longitude="103.8402" latitude="1.31452" Direction="39"/>
+<Coordinate longitude="103.84246" latitude="1.31728" Direction="39"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:32" EnglishDescription="Slow traffic" EnglishRoadName="Newton Road" EnglishRoadBegin="Thomson Road" EnglishRoadEnd="Newton Circus" Speed="21" DefaultSpeed="60" Direction="218" Length="853" Load="3" Delay="93" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11076" CountryCode="SG" LocationTableNumber="0" longitude="103.84286" latitude="1.31775"/>
+<Destination LocationCode="11075" CountryCode="SG" LocationTableNumber="0" longitude="103.84073" latitude="1.31501"/>
+<Coordinates>
+<Coordinate longitude="103.84286" latitude="1.31775" Direction="218"/>
+<Coordinate longitude="103.84073" latitude="1.31501" Direction="218"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:52:17" EnglishDescription="Slow traffic" EnglishRoadName="Geylang Road" EnglishRoadBegin="Joo Chiat Road" EnglishRoadEnd="Paya Lebar Road" Speed="16" DefaultSpeed="50" Direction="259" Length="626" Load="3" Delay="96" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11223" CountryCode="SG" LocationTableNumber="0" longitude="103.89649" latitude="1.31597"/>
+<Destination LocationCode="11224" CountryCode="SG" LocationTableNumber="0" longitude="103.89374" latitude="1.31543"/>
+<Coordinates>
+<Coordinate longitude="103.89649" latitude="1.31597" Direction="259"/>
+<Coordinate longitude="103.89374" latitude="1.31543" Direction="259"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:59:19" EnglishDescription="Slow traffic" EnglishRoadName="Geylang Road" EnglishRoadBegin="Aljunied Road" EnglishRoadEnd="Sims Way" Speed="21" DefaultSpeed="51" Direction="258" Length="758" Load="3" Delay="77" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11225" CountryCode="SG" LocationTableNumber="0" longitude="103.88076" latitude="1.31279"/>
+<Destination LocationCode="11226" CountryCode="SG" LocationTableNumber="0" longitude="103.87743" latitude="1.31207"/>
+<Coordinates>
+<Coordinate longitude="103.88076" latitude="1.31279" Direction="258"/>
+<Coordinate longitude="103.87743" latitude="1.31207" Direction="258"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:55:17" EnglishDescription="Slow traffic" EnglishRoadName="International Road" EnglishRoadBegin="Jalan Boon Lay" EnglishRoadEnd="Pioneer Road North" Speed="28" DefaultSpeed="60" Direction="268" Length="1341" Load="3" Delay="92" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11250" CountryCode="SG" LocationTableNumber="0" longitude="103.70615" latitude="1.32803"/>
+<Destination LocationCode="11249" CountryCode="SG" LocationTableNumber="0" longitude="103.70014" latitude="1.32782"/>
+<Coordinates>
+<Coordinate longitude="103.70615" latitude="1.32803" Direction="268"/>
+<Coordinate longitude="103.70014" latitude="1.32782" Direction="268"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:40:38" EnglishDescription="Slow traffic" EnglishRoadName="Jurong East Avenue 1" EnglishRoadBegin="Jurong East Central" EnglishRoadEnd="Jurong Town Hall" Speed="21" DefaultSpeed="51" Direction="288" Length="870" Load="3" Delay="89" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11252" CountryCode="SG" LocationTableNumber="0" longitude="103.74179" latitude="1.34141"/>
+<Destination LocationCode="11253" CountryCode="SG" LocationTableNumber="0" longitude="103.73817" latitude="1.3426"/>
+<Coordinates>
+<Coordinate longitude="103.74179" latitude="1.34141" Direction="288"/>
+<Coordinate longitude="103.73817" latitude="1.3426" Direction="288"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:46:52" EnglishDescription="Slow traffic" EnglishRoadName="Jurong Pier Road" EnglishRoadBegin="Jurong Island Highway" EnglishRoadEnd="Jalan Boon Lay" Speed="35" DefaultSpeed="71" Direction="0" Length="1299" Load="3" Delay="68" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11055" CountryCode="SG" LocationTableNumber="0" longitude="103.71006" latitude="1.31226"/>
+<Destination LocationCode="11054" CountryCode="SG" LocationTableNumber="0" longitude="103.71006" latitude="1.31803"/>
+<Coordinates>
+<Coordinate longitude="103.71006" latitude="1.31226"/>
+<Coordinate longitude="103.71006" latitude="1.31803"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:43:49" EnglishDescription="Slow traffic" EnglishRoadName="Tampines Avenue 8" EnglishRoadBegin="Tampines Avenue 1" EnglishRoadEnd="Tampines Avenue 5" Speed="28" DefaultSpeed="60" Direction="29" Length="954" Load="3" Delay="64" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11264" CountryCode="SG" LocationTableNumber="0" longitude="103.92941" latitude="1.35053"/>
+<Destination LocationCode="11265" CountryCode="SG" LocationTableNumber="0" longitude="103.93145" latitude="1.35429"/>
+<Coordinates>
+<Coordinate longitude="103.92941" latitude="1.35053" Direction="29"/>
+<Coordinate longitude="103.93145" latitude="1.35429" Direction="29"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:32:59" EnglishDescription="Slow traffic" EnglishRoadName="Tampines Street 31" EnglishRoadBegin="PIE" EnglishRoadEnd="Tampines Avenue 2" Speed="20" DefaultSpeed="61" Direction="325" Length="512" Load="3" Delay="63" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11271" CountryCode="SG" LocationTableNumber="0" longitude="103.95664" latitude="1.34928"/>
+<Destination LocationCode="11272" CountryCode="SG" LocationTableNumber="0" longitude="103.95535" latitude="1.35114"/>
+<Coordinates>
+<Coordinate longitude="103.95664" latitude="1.34928" Direction="325"/>
+<Coordinate longitude="103.95535" latitude="1.35114" Direction="325"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:39:50" EnglishDescription="Slow traffic" EnglishRoadName="Bedok Reservoir Road" EnglishRoadBegin="Kaki Bukit Avenue 1" EnglishRoadEnd="Bedok North Road" Speed="17" DefaultSpeed="61" Direction="72" Length="523" Load="3" Delay="81" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11327" CountryCode="SG" LocationTableNumber="0" longitude="103.91431" latitude="1.33712"/>
+<Destination LocationCode="11328" CountryCode="SG" LocationTableNumber="0" longitude="103.91653" latitude="1.33784"/>
+<Coordinates>
+<Coordinate longitude="103.91431" latitude="1.33712" Direction="72"/>
+<Coordinate longitude="103.91653" latitude="1.33784" Direction="72"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:49:16" EnglishDescription="Slow traffic" EnglishRoadName="Choa Chu Kang Drive" EnglishRoadBegin="Teck Whye Avenue/Choa Chu Kang Avenue 1" EnglishRoadEnd="KJE" Speed="18" DefaultSpeed="60" Direction="329" Length="1155" Load="3" Delay="157" TMC_Extent="2" TMC_Direction="0">
+<Origin LocationCode="11347" CountryCode="SG" LocationTableNumber="0" longitude="103.74915" latitude="1.38374"/>
+<Destination LocationCode="11349" CountryCode="SG" LocationTableNumber="0" longitude="103.7467" latitude="1.3878"/>
+<Coordinates>
+<Coordinate longitude="103.74915" latitude="1.38374" Direction="329"/>
+<Coordinate longitude="103.7467" latitude="1.3878" Direction="329"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:36:16" EnglishDescription="Slow traffic" EnglishRoadName="Choa Chu Kang Drive" EnglishRoadBegin="Choa Chu Kang Crescent" EnglishRoadEnd="KJE" Speed="28" DefaultSpeed="60" Direction="196" Length="1729" Load="3" Delay="119" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11350" CountryCode="SG" LocationTableNumber="0" longitude="103.74821" latitude="1.39903"/>
+<Destination LocationCode="11349" CountryCode="SG" LocationTableNumber="0" longitude="103.74519" latitude="1.3908"/>
+<Coordinates>
+<Coordinate longitude="103.74821" latitude="1.39903" Direction="196"/>
+<Coordinate longitude="103.74519" latitude="1.3908" Direction="159"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:43:01" EnglishDescription="Slow traffic" EnglishRoadName="Joo Chiat Road" EnglishRoadBegin="Geylang Road" EnglishRoadEnd="Koon Seng Road/Dunman Road" Speed="24" DefaultSpeed="51" Direction="145" Length="856" Load="3" Delay="66" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11364" CountryCode="SG" LocationTableNumber="0" longitude="103.89849" latitude="1.31493"/>
+<Destination LocationCode="11365" CountryCode="SG" LocationTableNumber="0" longitude="103.90071" latitude="1.31179"/>
+<Coordinates>
+<Coordinate longitude="103.89849" latitude="1.31493" Direction="145"/>
+<Coordinate longitude="103.90071" latitude="1.31179" Direction="145"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:40:31" EnglishDescription="Slow traffic" EnglishRoadName="Jurong West Avenue 1" EnglishRoadBegin="Jurong West Street 41/Jurong West Street 42" EnglishRoadEnd="Jurong West Street 42/Jurong West Street 51" Speed="15" DefaultSpeed="50" Direction="273" Length="988" Load="3" Delay="172" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11372" CountryCode="SG" LocationTableNumber="0" longitude="103.72408" latitude="1.35008"/>
+<Destination LocationCode="11371" CountryCode="SG" LocationTableNumber="0" longitude="103.71976" latitude="1.35032"/>
+<Coordinates>
+<Coordinate longitude="103.72408" latitude="1.35008" Direction="273"/>
+<Coordinate longitude="103.71976" latitude="1.35032" Direction="273"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:35:25" EnglishDescription="Slow traffic" EnglishRoadName="Jurong West Avenue 5" EnglishRoadBegin="Pioneer Road North" EnglishRoadEnd="Jurong West Street 82" Speed="24" DefaultSpeed="50" Direction="31" Length="879" Load="3" Delay="70" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11380" CountryCode="SG" LocationTableNumber="0" longitude="103.69404" latitude="1.34336"/>
+<Destination LocationCode="11381" CountryCode="SG" LocationTableNumber="0" longitude="103.69592" latitude="1.3465"/>
+<Coordinates>
+<Coordinate longitude="103.69404" latitude="1.34336" Direction="31"/>
+<Coordinate longitude="103.69592" latitude="1.3465" Direction="31"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:01" EnglishDescription="Slow traffic" EnglishRoadName="North Buona Vista Road" EnglishRoadBegin="Dover Road/Ayer Rajah Venue" EnglishRoadEnd="Commonwealth Avenue West" Speed="33" DefaultSpeed="71" Direction="34" Length="1182" Load="3" Delay="68" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="11418" CountryCode="SG" LocationTableNumber="0" longitude="103.78652" latitude="1.30113"/>
+<Destination LocationCode="11417" CountryCode="SG" LocationTableNumber="0" longitude="103.78942" latitude="1.30539"/>
+<Coordinates>
+<Coordinate longitude="103.78652" latitude="1.30113" Direction="34"/>
+<Coordinate longitude="103.78942" latitude="1.30539" Direction="34"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:48:57" EnglishDescription="Slow traffic" EnglishRoadName="Pasir Panjang Road" EnglishRoadBegin="Pepys Road" EnglishRoadEnd="Alexandra Road" Speed="30" DefaultSpeed="60" Direction="110" Length="1022" Load="3" Delay="62" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11439" CountryCode="SG" LocationTableNumber="0" longitude="103.7952" latitude="1.27528"/>
+<Destination LocationCode="11440" CountryCode="SG" LocationTableNumber="0" longitude="103.79952" latitude="1.27375"/>
+<Coordinates>
+<Coordinate longitude="103.7952" latitude="1.27528" Direction="110"/>
+<Coordinate longitude="103.79952" latitude="1.27375" Direction="110"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:56:12" EnglishDescription="Slow traffic" EnglishRoadName="Petir Road" EnglishRoadBegin="Chestnut Avenue" EnglishRoadEnd="Pending Road" Speed="17" DefaultSpeed="61" Direction="318" Length="807" Load="3" Delay="124" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11478" CountryCode="SG" LocationTableNumber="0" longitude="103.77425" latitude="1.37105"/>
+<Destination LocationCode="11479" CountryCode="SG" LocationTableNumber="0" longitude="103.77192" latitude="1.37361"/>
+<Coordinates>
+<Coordinate longitude="103.77425" latitude="1.37105" Direction="318"/>
+<Coordinate longitude="103.77192" latitude="1.37361" Direction="318"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:36:26" EnglishDescription="Slow traffic" EnglishRoadName="Punggol Road" EnglishRoadBegin="Sengkang East Avenue" EnglishRoadEnd="Sengkang East Way" Speed="23" DefaultSpeed="61" Direction="20" Length="1044" Load="3" Delay="104" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11489" CountryCode="SG" LocationTableNumber="0" longitude="103.89911" latitude="1.38466"/>
+<Destination LocationCode="11490" CountryCode="SG" LocationTableNumber="0" longitude="103.90058" latitude="1.38867"/>
+<Coordinates>
+<Coordinate longitude="103.89911" latitude="1.38466" Direction="20"/>
+<Coordinate longitude="103.90058" latitude="1.38867" Direction="20"/>
+</Coordinates>
+</Event>
+<Event Code="1523" TMCEventCode="1622" LastUpdateTime="25/05/2015 15:59:40" EnglishDescription="Heavy traffic" EnglishRoadName="Woodlands Avenue 7" EnglishRoadBegin="Gambas Avenue" EnglishRoadEnd="Woodlands Avenue 6" Speed="7" DefaultSpeed="60" Direction="237" Length="853" Load="4" Delay="366" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11549" CountryCode="SG" LocationTableNumber="0" longitude="103.80695" latitude="1.44473"/>
+<Destination LocationCode="11550" CountryCode="SG" LocationTableNumber="0" longitude="103.8038" latitude="1.44264"/>
+<Coordinates>
+<Coordinate longitude="103.80695" latitude="1.44473" Direction="237"/>
+<Coordinate longitude="103.8038" latitude="1.44264" Direction="237"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:48:01" EnglishDescription="Slow traffic" EnglishRoadName="Woodlands Avenue 9" EnglishRoadBegin="Gambas Avenue/Woodlands Avenue 8" EnglishRoadEnd="Woodlands Avenue 4" Speed="25" DefaultSpeed="60" Direction="248" Length="1254" Load="3" Delay="104" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="11557" CountryCode="SG" LocationTableNumber="0" longitude="103.80079" latitude="1.44939"/>
+<Destination LocationCode="11558" CountryCode="SG" LocationTableNumber="0" longitude="103.79559" latitude="1.44727"/>
+<Coordinates>
+<Coordinate longitude="103.80079" latitude="1.44939" Direction="248"/>
+<Coordinate longitude="103.79559" latitude="1.44727" Direction="248"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:32:40" EnglishDescription="Slow traffic" EnglishRoadName="Admiralty Drive" EnglishRoadBegin="Sembawang Way/Sembawang Crescent" EnglishRoadEnd="Canberra Road" Speed="24" DefaultSpeed="51" Direction="56" Length="873" Load="3" Delay="67" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="14488" CountryCode="SG" LocationTableNumber="0" longitude="103.81558" latitude="1.44889"/>
+<Destination LocationCode="14489" CountryCode="SG" LocationTableNumber="0" longitude="103.81847" latitude="1.45083"/>
+<Coordinates>
+<Coordinate longitude="103.81558" latitude="1.44889" Direction="56"/>
+<Coordinate longitude="103.81847" latitude="1.45083" Direction="56"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:51:42" EnglishDescription="Slow traffic" EnglishRoadName="Bangkit Road" EnglishRoadBegin="Bukit Panjang Ring Road" EnglishRoadEnd="Bukit Panjang Road" Speed="8" DefaultSpeed="50" Direction="164" Length="741" Load="3" Delay="298" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="14090" CountryCode="SG" LocationTableNumber="0" longitude="103.77264" latitude="1.37876"/>
+<Destination LocationCode="14091" CountryCode="SG" LocationTableNumber="0" longitude="103.77308" latitude="1.37727"/>
+<Coordinates>
+<Coordinate longitude="103.77264" latitude="1.37876" Direction="164"/>
+<Coordinate longitude="103.77308" latitude="1.37727" Direction="164"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:50:40" EnglishDescription="Slow traffic" EnglishRoadName="Bedok North Interchange" EnglishRoadBegin="Bedok North Street 1" EnglishRoadEnd="New Upper Changi Road" Speed="10" DefaultSpeed="51" Direction="242" Length="421" Load="3" Delay="125" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="15552" CountryCode="SG" LocationTableNumber="0" longitude="103.92911" latitude="1.32639"/>
+<Destination LocationCode="15553" CountryCode="SG" LocationTableNumber="0" longitude="103.92785" latitude="1.32573"/>
+<Coordinates>
+<Coordinate longitude="103.92911" latitude="1.32639" Direction="242"/>
+<Coordinate longitude="103.92785" latitude="1.32573" Direction="242"/>
+</Coordinates>
+</Event>
+<Event Code="1523" TMCEventCode="1622" LastUpdateTime="25/05/2015 15:45:22" EnglishDescription="Heavy traffic" EnglishRoadName="Birch Road" EnglishRoadBegin="Race Course Road" EnglishRoadEnd="Serangoon Road" Speed="2" DefaultSpeed="52" Direction="140" Length="217" Load="4" Delay="377" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="13356" CountryCode="SG" LocationTableNumber="0" longitude="103.85338" latitude="1.31165"/>
+<Destination LocationCode="13357" CountryCode="SG" LocationTableNumber="0" longitude="103.854" latitude="1.31091"/>
+<Coordinates>
+<Coordinate longitude="103.85338" latitude="1.31165" Direction="140"/>
+<Coordinate longitude="103.854" latitude="1.31091" Direction="140"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:40:17" EnglishDescription="Slow traffic" EnglishRoadName="Birch Road" EnglishRoadBegin="Serangoon Road" EnglishRoadEnd="Race Course Road" Speed="3" DefaultSpeed="52" Direction="320" Length="217" Load="3" Delay="278" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="13357" CountryCode="SG" LocationTableNumber="0" longitude="103.85413" latitude="1.31076"/>
+<Destination LocationCode="13356" CountryCode="SG" LocationTableNumber="0" longitude="103.8535" latitude="1.31151"/>
+<Coordinates>
+<Coordinate longitude="103.85413" latitude="1.31076" Direction="320"/>
+<Coordinate longitude="103.8535" latitude="1.31151" Direction="320"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:58:03" EnglishDescription="Slow traffic" EnglishRoadName="Bukit Batok West Avenue 4" EnglishRoadBegin="Bukit Batok West Avenue 2" EnglishRoadEnd="Bukit Batok West Avenue 7" Speed="12" DefaultSpeed="50" Direction="20" Length="547" Load="3" Delay="127" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="13874" CountryCode="SG" LocationTableNumber="0" longitude="103.7458" latitude="1.36167"/>
+<Destination LocationCode="13875" CountryCode="SG" LocationTableNumber="0" longitude="103.7466" latitude="1.36385"/>
+<Coordinates>
+<Coordinate longitude="103.7458" latitude="1.36167" Direction="20"/>
+<Coordinate longitude="103.7466" latitude="1.36385" Direction="20"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:42:18" EnglishDescription="Slow traffic" EnglishRoadName="Choa Chu Kang Avenue 2" EnglishRoadBegin="Choa Chu Kang Way" EnglishRoadEnd="Choa Chu Kang Avenue 1/Choa Chu Kang Terrace" Speed="17" DefaultSpeed="51" Direction="241" Length="708" Load="3" Delay="101" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="16248" CountryCode="SG" LocationTableNumber="0" longitude="103.74409" latitude="1.37954"/>
+<Destination LocationCode="16249" CountryCode="SG" LocationTableNumber="0" longitude="103.74156" latitude="1.37811"/>
+<Coordinates>
+<Coordinate longitude="103.74409" latitude="1.37954" Direction="241"/>
+<Coordinate longitude="103.74156" latitude="1.37811" Direction="241"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:36:20" EnglishDescription="Slow traffic" EnglishRoadName="Defu Lane 9" EnglishRoadBegin="Defu Avenue 1" EnglishRoadEnd="Defu Lane 7" Speed="19" DefaultSpeed="51" Direction="22" Length="955" Load="3" Delay="115" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="14418" CountryCode="SG" LocationTableNumber="0" longitude="103.89262" latitude="1.3488"/>
+<Destination LocationCode="14419" CountryCode="SG" LocationTableNumber="0" longitude="103.8941" latitude="1.35252"/>
+<Coordinates>
+<Coordinate longitude="103.89262" latitude="1.3488" Direction="22"/>
+<Coordinate longitude="103.8941" latitude="1.35252" Direction="22"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:39:02" EnglishDescription="Slow traffic" EnglishRoadName="Havelock Square" EnglishRoadBegin="End Of Road" EnglishRoadEnd="New Market Road" Speed="6" DefaultSpeed="51" Direction="351" Length="155" Load="3" Delay="77" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="14957" CountryCode="SG" LocationTableNumber="0" longitude="103.84464" latitude="1.28616"/>
+<Destination LocationCode="14956" CountryCode="SG" LocationTableNumber="0" longitude="103.84457" latitude="1.28667"/>
+<Coordinates>
+<Coordinate longitude="103.84464" latitude="1.28616" Direction="351"/>
+<Coordinate longitude="103.84457" latitude="1.28667" Direction="351"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:42:09" EnglishDescription="Slow traffic" EnglishRoadName="Hougang Avenue 9" EnglishRoadBegin="Serangoon North Avenue 5/Yio Chu Kang Road" EnglishRoadEnd="Hougang Street 61/Hougang Avenue 4" Speed="21" DefaultSpeed="51" Direction="92" Length="900" Load="3" Delay="93" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="13070" CountryCode="SG" LocationTableNumber="0" longitude="103.87872" latitude="1.37495"/>
+<Destination LocationCode="13071" CountryCode="SG" LocationTableNumber="0" longitude="103.88267" latitude="1.37481"/>
+<Coordinates>
+<Coordinate longitude="103.87872" latitude="1.37495" Direction="92"/>
+<Coordinate longitude="103.88267" latitude="1.37481" Direction="92"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:44:26" EnglishDescription="Slow traffic" EnglishRoadName="Jalan Tenaga" EnglishRoadBegin="Bedok Reservoir Road" EnglishRoadEnd="Kaki Bukit Avenue 1/Kaki Bukit Road 3" Speed="15" DefaultSpeed="50" Direction="334" Length="363" Load="3" Delay="64" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="12685" CountryCode="SG" LocationTableNumber="0" longitude="103.90684" latitude="1.33195"/>
+<Destination LocationCode="12684" CountryCode="SG" LocationTableNumber="0" longitude="103.90613" latitude="1.33342"/>
+<Coordinates>
+<Coordinate longitude="103.90684" latitude="1.33195" Direction="334"/>
+<Coordinate longitude="103.90613" latitude="1.33342" Direction="334"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:37:29" EnglishDescription="Slow traffic" EnglishRoadName="Jalan Tenteram" EnglishRoadBegin="Jalan Bahagia/Jalan Ma'Mor" EnglishRoadEnd="Jalan Bahagia" Speed="10" DefaultSpeed="50" Direction="132" Length="641" Load="3" Delay="188" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="12622" CountryCode="SG" LocationTableNumber="0" longitude="103.85786" latitude="1.32752"/>
+<Destination LocationCode="12623" CountryCode="SG" LocationTableNumber="0" longitude="103.85858" latitude="1.32686"/>
+<Coordinates>
+<Coordinate longitude="103.85786" latitude="1.32752" Direction="132"/>
+<Coordinate longitude="103.85858" latitude="1.32686" Direction="132"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:39:42" EnglishDescription="Slow traffic" EnglishRoadName="Jurong West Street 52" EnglishRoadBegin="Jurong West Street 51" EnglishRoadEnd="Jurong West Avenue 1/Jurong West Street 42" Speed="20" DefaultSpeed="50" Direction="312" Length="841" Load="3" Delay="92" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="16595" CountryCode="SG" LocationTableNumber="0" longitude="103.72031" latitude="1.34761"/>
+<Destination LocationCode="16594" CountryCode="SG" LocationTableNumber="0" longitude="103.71835" latitude="1.34939"/>
+<Coordinates>
+<Coordinate longitude="103.72031" latitude="1.34761" Direction="312"/>
+<Coordinate longitude="103.71835" latitude="1.34939" Direction="312"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:16" EnglishDescription="Slow traffic" EnglishRoadName="Kampong Kapor Road" EnglishRoadBegin="Upper Weld Road" EnglishRoadEnd="Syed Alwi Raod/Verdun Road" Speed="14" DefaultSpeed="50" Direction="34" Length="336" Load="3" Delay="64" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="13593" CountryCode="SG" LocationTableNumber="0" longitude="103.854" latitude="1.30692"/>
+<Destination LocationCode="13592" CountryCode="SG" LocationTableNumber="0" longitude="103.85484" latitude="1.30817"/>
+<Coordinates>
+<Coordinate longitude="103.854" latitude="1.30692" Direction="34"/>
+<Coordinate longitude="103.85484" latitude="1.30817" Direction="34"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:58:45" EnglishDescription="Slow traffic" EnglishRoadName="Lengkok Bahru" EnglishRoadBegin="Hoy Fatt Road/Kung Chong Road" EnglishRoadEnd="Hoy Fatt Road" Speed="24" DefaultSpeed="51" Direction="46" Length="926" Load="3" Delay="74" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="14497" CountryCode="SG" LocationTableNumber="0" longitude="103.81091" latitude="1.2874"/>
+<Destination LocationCode="14496" CountryCode="SG" LocationTableNumber="0" longitude="103.81229" latitude="1.28874"/>
+<Coordinates>
+<Coordinate longitude="103.81091" latitude="1.2874" Direction="46"/>
+<Coordinate longitude="103.81229" latitude="1.28874" Direction="46"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:50:43" EnglishDescription="Slow traffic" EnglishRoadName="Lorong 12 Geylang" EnglishRoadBegin="Guillemard Road" EnglishRoadEnd="Geylang Road" Speed="9" DefaultSpeed="51" Direction="350" Length="310" Load="3" Delay="104" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="14759" CountryCode="SG" LocationTableNumber="0" longitude="103.87851" latitude="1.31024"/>
+<Destination LocationCode="14758" CountryCode="SG" LocationTableNumber="0" longitude="103.87828" latitude="1.31161"/>
+<Coordinates>
+<Coordinate longitude="103.87851" latitude="1.31024" Direction="350"/>
+<Coordinate longitude="103.87828" latitude="1.31161" Direction="350"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:57:59" EnglishDescription="Slow traffic" EnglishRoadName="Lorong 16 Geylang" EnglishRoadBegin="Guillemard Crescent/Guillemard Road" EnglishRoadEnd="Geylang Road" Speed="12" DefaultSpeed="52" Direction="353" Length="290" Load="3" Delay="66" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="15348" CountryCode="SG" LocationTableNumber="0" longitude="103.88003" latitude="1.31062"/>
+<Destination LocationCode="15349" CountryCode="SG" LocationTableNumber="0" longitude="103.87986" latitude="1.31191"/>
+<Coordinates>
+<Coordinate longitude="103.88003" latitude="1.31062" Direction="353"/>
+<Coordinate longitude="103.87986" latitude="1.31191" Direction="353"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:48:22" EnglishDescription="Slow traffic" EnglishRoadName="Lorong 8 Geylang" EnglishRoadBegin="Guillemard Road" EnglishRoadEnd="Geylang Road" Speed="11" DefaultSpeed="51" Direction="349" Length="396" Load="3" Delay="96" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="15288" CountryCode="SG" LocationTableNumber="0" longitude="103.87748" latitude="1.30943"/>
+<Destination LocationCode="15289" CountryCode="SG" LocationTableNumber="0" longitude="103.87714" latitude="1.31115"/>
+<Coordinates>
+<Coordinate longitude="103.87748" latitude="1.30943" Direction="349"/>
+<Coordinate longitude="103.87714" latitude="1.31115" Direction="349"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:54:18" EnglishDescription="Slow traffic" EnglishRoadName="Lorong Mydin" EnglishRoadBegin="Changi Road" EnglishRoadEnd="Lorong Melayu" Speed="14" DefaultSpeed="41" Direction="345" Length="519" Load="3" Delay="88" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="17041" CountryCode="SG" LocationTableNumber="0" longitude="103.91152" latitude="1.31984"/>
+<Destination LocationCode="17040" CountryCode="SG" LocationTableNumber="0" longitude="103.91093" latitude="1.32209"/>
+<Coordinates>
+<Coordinate longitude="103.91152" latitude="1.31984" Direction="345"/>
+<Coordinate longitude="103.91093" latitude="1.32209" Direction="345"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:33:03" EnglishDescription="Slow traffic" EnglishRoadName="Marine Terrace" EnglishRoadBegin="Marine Crescent" EnglishRoadEnd="Marine Parade Road" Speed="16" DefaultSpeed="51" Direction="60" Length="649" Load="3" Delay="101" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="13840" CountryCode="SG" LocationTableNumber="0" longitude="103.91408" latitude="1.30563"/>
+<Destination LocationCode="13841" CountryCode="SG" LocationTableNumber="0" longitude="103.91566" latitude="1.30654"/>
+<Coordinates>
+<Coordinate longitude="103.91408" latitude="1.30563" Direction="60"/>
+<Coordinate longitude="103.91566" latitude="1.30654" Direction="60"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:53:57" EnglishDescription="Slow traffic" EnglishRoadName="Playfair Road" EnglishRoadBegin="Shaw Road" EnglishRoadEnd="Macpherson Road" Speed="13" DefaultSpeed="51" Direction="157" Length="534" Load="3" Delay="112" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="12522" CountryCode="SG" LocationTableNumber="0" longitude="103.88544" latitude="1.33668"/>
+<Destination LocationCode="12523" CountryCode="SG" LocationTableNumber="0" longitude="103.88636" latitude="1.33447"/>
+<Coordinates>
+<Coordinate longitude="103.88544" latitude="1.33668" Direction="157"/>
+<Coordinate longitude="103.88636" latitude="1.33447" Direction="157"/>
+</Coordinates>
+</Event>
+<Event Code="1523" TMCEventCode="1622" LastUpdateTime="25/05/2015 15:55:52" EnglishDescription="Heavy traffic" EnglishRoadName="Seletar Road" EnglishRoadBegin="Stratton Road" EnglishRoadEnd="Jalan Kayu/Yio Chu Kang Road" Speed="6" DefaultSpeed="50" Direction="8" Length="827" Load="4" Delay="470" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="12755" CountryCode="SG" LocationTableNumber="0" longitude="103.8679" latitude="1.38225"/>
+<Destination LocationCode="12754" CountryCode="SG" LocationTableNumber="0" longitude="103.86844" latitude="1.38593"/>
+<Coordinates>
+<Coordinate longitude="103.8679" latitude="1.38225" Direction="8"/>
+<Coordinate longitude="103.86844" latitude="1.38593" Direction="8"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:47:03" EnglishDescription="Slow traffic" EnglishRoadName="Seletar West Farmway 5" EnglishRoadBegin="Seletar West Farmway 6" EnglishRoadEnd="Seletar West Farmway 4" Speed="25" DefaultSpeed="50" Direction="130" Length="820" Load="3" Delay="60" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="14212" CountryCode="SG" LocationTableNumber="0" longitude="103.86456" latitude="1.39684"/>
+<Destination LocationCode="14213" CountryCode="SG" LocationTableNumber="0" longitude="103.86678" latitude="1.39494"/>
+<Coordinates>
+<Coordinate longitude="103.86456" latitude="1.39684" Direction="130"/>
+<Coordinate longitude="103.86678" latitude="1.39494" Direction="130"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:30:14" EnglishDescription="Slow traffic" EnglishRoadName="Senoko Avenue" EnglishRoadBegin="Admiralty Road West" EnglishRoadEnd="Senoko Way" Speed="16" DefaultSpeed="51" Direction="330" Length="590" Load="3" Delay="92" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="14433" CountryCode="SG" LocationTableNumber="0" longitude="103.81158" latitude="1.46475"/>
+<Destination LocationCode="14432" CountryCode="SG" LocationTableNumber="0" longitude="103.81027" latitude="1.46704"/>
+<Coordinates>
+<Coordinate longitude="103.81158" latitude="1.46475" Direction="330"/>
+<Coordinate longitude="103.81027" latitude="1.46704" Direction="330"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:50:16" EnglishDescription="Slow traffic" EnglishRoadName="Summit Lane" EnglishRoadBegin="Jurong East Street 12" EnglishRoadEnd="Boon Lay Way" Speed="12" DefaultSpeed="51" Direction="59" Length="385" Load="3" Delay="87" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="17018" CountryCode="SG" LocationTableNumber="0" longitude="103.7423" latitude="1.33231"/>
+<Destination LocationCode="17019" CountryCode="SG" LocationTableNumber="0" longitude="103.74359" latitude="1.33309"/>
+<Coordinates>
+<Coordinate longitude="103.7423" latitude="1.33231" Direction="59"/>
+<Coordinate longitude="103.74359" latitude="1.33309" Direction="59"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:43:55" EnglishDescription="Slow traffic" EnglishRoadName="Sungei Kadut Street 2" EnglishRoadBegin="End Of Road" EnglishRoadEnd="Sungei Kadut Street 1" Speed="16" DefaultSpeed="50" Direction="349" Length="1226" Load="3" Delay="187" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="12841" CountryCode="SG" LocationTableNumber="0" longitude="103.75185" latitude="1.41328"/>
+<Destination LocationCode="12840" CountryCode="SG" LocationTableNumber="0" longitude="103.75167" latitude="1.41429"/>
+<Coordinates>
+<Coordinate longitude="103.75185" latitude="1.41328" Direction="349"/>
+<Coordinate longitude="103.75167" latitude="1.41429" Direction="349"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:40:20" EnglishDescription="Slow traffic" EnglishRoadName="T2 Arrival Drive" EnglishRoadBegin="T2 Boulevard" EnglishRoadEnd="T2 Departure Drive" Speed="20" DefaultSpeed="51" Direction="201" Length="717" Load="3" Delay="75" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="12292" CountryCode="SG" LocationTableNumber="0" longitude="103.9886" latitude="1.35659"/>
+<Destination LocationCode="12293" CountryCode="SG" LocationTableNumber="0" longitude="103.98756" latitude="1.35384"/>
+<Coordinates>
+<Coordinate longitude="103.9886" latitude="1.35659" Direction="201"/>
+<Coordinate longitude="103.98756" latitude="1.35384" Direction="201"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:34:26" EnglishDescription="Slow traffic" EnglishRoadName="T2 Link South" EnglishRoadBegin="Start Of Road" EnglishRoadEnd="End Of Road" Speed="12" DefaultSpeed="50" Direction="204" Length="962" Load="3" Delay="214" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="15482" CountryCode="SG" LocationTableNumber="0" longitude="103.99004" latitude="1.35716"/>
+<Destination LocationCode="15483" CountryCode="SG" LocationTableNumber="0" longitude="103.98833" latitude="1.35338"/>
+<Coordinates>
+<Coordinate longitude="103.99004" latitude="1.35716" Direction="204"/>
+<Coordinate longitude="103.98833" latitude="1.35338" Direction="204"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:46:32" EnglishDescription="Slow traffic" EnglishRoadName="T3 Link South" EnglishRoadBegin="T3 Departure Drive" EnglishRoadEnd="End Of Road" Speed="11" DefaultSpeed="51" Direction="0" Length="340" Load="3" Delay="83" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="16902" CountryCode="SG" LocationTableNumber="0" longitude="103.9848" latitude="1.35063"/>
+<Destination LocationCode="16903" CountryCode="SG" LocationTableNumber="0" longitude="103.9848" latitude="1.35184"/>
+<Coordinates>
+<Coordinate longitude="103.9848" latitude="1.35063"/>
+<Coordinate longitude="103.9848" latitude="1.35184"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:50:33" EnglishDescription="Slow traffic" EnglishRoadName="Tampines Street 23" EnglishRoadBegin="Tampines Street 21" EnglishRoadEnd="Tampines Street 32/Tampines Street 2" Speed="14" DefaultSpeed="51" Direction="89" Length="383" Load="3" Delay="72" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="12388" CountryCode="SG" LocationTableNumber="0" longitude="103.95242" latitude="1.35377"/>
+<Destination LocationCode="12389" CountryCode="SG" LocationTableNumber="0" longitude="103.95414" latitude="1.35379"/>
+<Coordinates>
+<Coordinate longitude="103.95242" latitude="1.35377" Direction="89"/>
+<Coordinate longitude="103.95414" latitude="1.35379" Direction="89"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:39:59" EnglishDescription="Slow traffic" EnglishRoadName="Tampines Street 81" EnglishRoadBegin="Tampines Avenue 3" EnglishRoadEnd="End Of Road" Speed="22" DefaultSpeed="50" Direction="112" Length="756" Load="3" Delay="68" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="12612" CountryCode="SG" LocationTableNumber="0" longitude="103.93327" latitude="1.35019"/>
+<Destination LocationCode="12613" CountryCode="SG" LocationTableNumber="0" longitude="103.93515" latitude="1.34941"/>
+<Coordinates>
+<Coordinate longitude="103.93327" latitude="1.35019" Direction="112"/>
+<Coordinate longitude="103.93515" latitude="1.34941" Direction="112"/>
+</Coordinates>
+</Event>
+<Event Code="1523" TMCEventCode="1602" LastUpdateTime="25/05/2015 15:36:48" EnglishDescription="Heavy traffic" EnglishRoadName="Tampines Street 92" EnglishRoadBegin="Tampines Street 93" EnglishRoadEnd="Tampines Avenue 1" Speed="6" DefaultSpeed="50" Direction="334" Length="1076" Load="4" Delay="621" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="12088" CountryCode="SG" LocationTableNumber="0" longitude="103.94267" latitude="1.34113"/>
+<Destination LocationCode="12089" CountryCode="SG" LocationTableNumber="0" longitude="103.94151" latitude="1.34354"/>
+<Coordinates>
+<Coordinate longitude="103.94267" latitude="1.34113" Direction="334"/>
+<Coordinate longitude="103.94151" latitude="1.34354" Direction="334"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:34:26" EnglishDescription="Slow traffic" EnglishRoadName="Tampines Street 92" EnglishRoadBegin="Tampines Avenue 1" EnglishRoadEnd="Tampines Street 93" Speed="15" DefaultSpeed="51" Direction="172" Length="369" Load="3" Delay="65" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="12089" CountryCode="SG" LocationTableNumber="0" longitude="103.9409" latitude="1.34434"/>
+<Destination LocationCode="12088" CountryCode="SG" LocationTableNumber="0" longitude="103.94112" latitude="1.34271"/>
+<Coordinates>
+<Coordinate longitude="103.9409" latitude="1.34434" Direction="172"/>
+<Coordinate longitude="103.94112" latitude="1.34271" Direction="172"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:56:31" EnglishDescription="Slow traffic" EnglishRoadName="Veerasamy Road" EnglishRoadBegin="Jalan Besar" EnglishRoadEnd="Serangoon Road" Speed="8" DefaultSpeed="52" Direction="294" Length="402" Load="3" Delay="162" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="14940" CountryCode="SG" LocationTableNumber="0" longitude="103.8553" latitude="1.30669"/>
+<Destination LocationCode="14941" CountryCode="SG" LocationTableNumber="0" longitude="103.85368" latitude="1.30743"/>
+<Coordinates>
+<Coordinate longitude="103.8553" latitude="1.30669" Direction="294"/>
+<Coordinate longitude="103.85368" latitude="1.30743" Direction="294"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:40:46" EnglishDescription="Slow traffic" EnglishRoadName="Woodlands Ind Park E6" EnglishRoadBegin="Woodlands Ind Park E3" EnglishRoadEnd="Woodlands Avenue 3" Speed="15" DefaultSpeed="50" Direction="155" Length="616" Load="3" Delay="104" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="13146" CountryCode="SG" LocationTableNumber="0" longitude="103.79775" latitude="1.45282"/>
+<Destination LocationCode="13147" CountryCode="SG" LocationTableNumber="0" longitude="103.79893" latitude="1.45032"/>
+<Coordinates>
+<Coordinate longitude="103.79775" latitude="1.45282" Direction="155"/>
+<Coordinate longitude="103.79893" latitude="1.45032" Direction="155"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:39:54" EnglishDescription="Slow traffic" EnglishRoadName="Woodlands Ind Park E7" EnglishRoadBegin="Woodlands Ind Park E4" EnglishRoadEnd="Woodlands Ind Park E8" Speed="20" DefaultSpeed="50" Direction="65" Length="585" Load="3" Delay="62" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="13160" CountryCode="SG" LocationTableNumber="0" longitude="103.79637" latitude="1.45099"/>
+<Destination LocationCode="13161" CountryCode="SG" LocationTableNumber="0" longitude="103.79875" latitude="1.45211"/>
+<Coordinates>
+<Coordinate longitude="103.79637" latitude="1.45099" Direction="65"/>
+<Coordinate longitude="103.79875" latitude="1.45211" Direction="65"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:40:54" EnglishDescription="Slow traffic" EnglishRoadName="Woodlands Ind Park E9" EnglishRoadBegin="Woodlands Ind Park E8" EnglishRoadEnd="Woodlands Avenue 4" Speed="18" DefaultSpeed="50" Direction="246" Length="1086" Load="3" Delay="135" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="13177" CountryCode="SG" LocationTableNumber="0" longitude="103.7991" latitude="1.45036"/>
+<Destination LocationCode="13176" CountryCode="SG" LocationTableNumber="0" longitude="103.79465" latitude="1.44842"/>
+<Coordinates>
+<Coordinate longitude="103.7991" latitude="1.45036" Direction="246"/>
+<Coordinate longitude="103.79465" latitude="1.44842" Direction="246"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:30:32" EnglishDescription="Slow traffic" EnglishRoadName="Yishun Street 20" EnglishRoadBegin="Yishun Street 22" EnglishRoadEnd="Yishun Ring Road/Yishun Street 21" Speed="13" DefaultSpeed="51" Direction="203" Length="324" Load="3" Delay="69" TMC_Extent="1" TMC_Direction="0">
+<Origin LocationCode="17008" CountryCode="SG" LocationTableNumber="0" longitude="103.83688" latitude="1.43704"/>
+<Destination LocationCode="17009" CountryCode="SG" LocationTableNumber="0" longitude="103.8364" latitude="1.43591"/>
+<Coordinates>
+<Coordinate longitude="103.83688" latitude="1.43704" Direction="203"/>
+<Coordinate longitude="103.8364" latitude="1.43591" Direction="203"/>
+</Coordinates>
+</Event>
+<Event Code="115" TMCEventCode="1621" LastUpdateTime="25/05/2015 15:48:31" EnglishDescription="Slow traffic" EnglishRoadName="Yung Ho Road" EnglishRoadBegin="Yuan Ching Road" EnglishRoadEnd="Corporation Road" Speed="20" DefaultSpeed="51" Direction="275" Length="652" Load="3" Delay="72" TMC_Extent="1" TMC_Direction="1">
+<Origin LocationCode="13303" CountryCode="SG" LocationTableNumber="0" longitude="103.72426" latitude="1.32687"/>
+<Destination LocationCode="13302" CountryCode="SG" LocationTableNumber="0" longitude="103.72147" latitude="1.32711"/>
+<Coordinates>
+<Coordinate longitude="103.72426" latitude="1.32687" Direction="275"/>
+<Coordinate longitude="103.72147" latitude="1.32711" Direction="275"/>
+</Coordinates>
+</Event>
+</Events>

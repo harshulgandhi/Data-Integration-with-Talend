@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Arrays.asList(row4.cpkNo.split(&quot;\\s*,\\s*&quot;))">
+  <variables name="row4.cpkNo" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.lotType" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.lotsAvlbty" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

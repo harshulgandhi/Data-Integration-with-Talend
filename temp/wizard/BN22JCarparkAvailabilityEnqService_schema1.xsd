@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema targetNamespace="http://enq.bn22cpkavail.hdb.gov.sg/" version="1.0" xmlns:tns="http://enq.bn22cpkavail.hdb.gov.sg/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="updateCarparkAvailabity" type="tns:updateCarparkAvailabity"/>
+
+  <xs:element name="updateCarparkAvailabityResponse" type="tns:updateCarparkAvailabityResponse"/>
+
+  <xs:complexType name="updateCarparkAvailabity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:bn22JCarparkAvailabiltyEnqReq"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="bn22JCarparkAvailabiltyEnqReq">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dateSend" type="xs:string"/>
+      <xs:element minOccurs="0" name="sender" type="xs:string"/>
+      <xs:element minOccurs="0" name="signature" type="xs:string"/>
+      <xs:element minOccurs="0" name="targetReceiver" type="xs:string"/>
+      <xs:element minOccurs="0" name="timeSend" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateCarparkAvailabityResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:bn22JCarparkAvailabiltyEnqResp"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="bn22JCarparkAvailabiltyEnqResp">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dateSend" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="details" nillable="true" type="tns:bn22JCarparkAvailabilityEnqInfo"/>
+      <xs:element minOccurs="0" name="msgErr" type="xs:string"/>
+      <xs:element minOccurs="0" name="recCount" type="xs:string"/>
+      <xs:element minOccurs="0" name="sender" type="xs:string"/>
+      <xs:element minOccurs="0" name="signature" type="xs:string"/>
+      <xs:element minOccurs="0" name="statusNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="targetReceiver" type="xs:string"/>
+      <xs:element minOccurs="0" name="timeSend" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="bn22JCarparkAvailabilityEnqInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cpkNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="lotType" type="xs:string"/>
+      <xs:element name="lotsAvlbty" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
