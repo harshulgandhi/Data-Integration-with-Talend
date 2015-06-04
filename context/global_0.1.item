@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="temp_directory" prompt="temp_directory?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/TOS_DI-Win32-20150508_1414-V5.6.2/workspace/"/>
+</talendfile:ContextType>

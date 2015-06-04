@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
-  <contextParameter comment="" name="decell_dir" prompt="decell_dir?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_26"/>
-  <contextParameter comment="" name="lta_dir" prompt="lta_dir?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_26"/>
-  <contextParameter comment="" name="decell_dir_csv" prompt="decell_dir_csv?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_26_csv"/>
-  <contextParameter comment="" name="lta_dir_csv" prompt="lta_dir_csv?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_26_csv"/>
+  <contextParameter comment="" name="decell_dir" prompt="decell_dir?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_29"/>
+  <contextParameter comment="" name="lta_dir" prompt="lta_dir?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_29"/>
+  <contextParameter comment="" name="decell_dir_csv" prompt="decell_dir_csv?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_29_csv"/>
+  <contextParameter comment="" name="lta_dir_csv" prompt="lta_dir_csv?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_29_csv"/>
   <contextParameter comment="" name="curr_file" prompt="curr_file?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter comment="" name="temp_file" prompt="temp_file?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/TOS_DI-Win32-20150508_1414-V5.6.2/workspace/out.csv"/>
   <contextParameter comment="" name="lta_linkid_map" prompt="lta_linkid_map?" promptNeeded="false" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/hmz_lta2lt_20110103.csv"/>

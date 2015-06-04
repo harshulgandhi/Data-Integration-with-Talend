@@ -122,7 +122,7 @@
   </parameters>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="/*String list=context.NameList.substring(1,(context.NameList.length())-1);&#xA;String listArray[]=list.split(&quot;,&quot;);&#xA;System.out.println(&quot;Value of context variable is : &quot;+listArray[1]);&#xA;System.out.println(&quot;Surname is : &quot;+context.SurName);&#xA;*/&#xA;&#xA;System.out.println(&quot;directory structure in current context is : &quot;+context.dirStruct);&#xA;String listPath=context.dirStruct.substring(1,(context.dirStruct.length()-1));&#xA;System.out.println(&quot;listPath = &quot;+listPath);&#xA;String archivePath = listPath.replace(',', '/');&#xA;String archivePathList[]=listPath.split(&quot;,&quot;);&#xA;&#xA;for(String dir : archivePathList){&#xA;&#x9;System.out.print(dir+&quot;/&quot;);&#xA;}&#xA;&#xA;globalMap.put(&quot;archivePath&quot;,archivePath);&#xA;System.out.println(&quot;From global map :&quot; + globalMap.get(&quot;archivePath&quot;));&#xA;&#xA;System.out.println(&quot;List of files: &quot;+context.fileList);&#xA;String listFile = context.fileList.substring(1,(context.fileList.length()-1));&#xA;String fileListArray[] = listFile.split(&quot;,&quot;);&#xA;globalMap.put(&quot;fileList&quot;, fileListArray);&#xA;&#xA;&#xA;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -138,7 +138,7 @@
   </node>
   <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;inputFolder&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;C:/Users/harshul/talend-home/ContextTest/Input/&quot;"/>
@@ -160,7 +160,7 @@
   </node>
   <node componentName="tLoop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLoop_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="RADIO" name="FORLOOP" value="true"/>
     <elementParameter field="RADIO" name="WHILELOOP" value="false"/>
     <elementParameter field="TEXT" name="FROM" value="0"/>
@@ -174,7 +174,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="globalMap.put(&quot;currentFile&quot;, ((String[])globalMap.get(&quot;fileList&quot;))[(Integer)globalMap.get(&quot;tLoop_1_CURRENT_VALUE&quot;)]);&#xA;//System.out.println(&quot;NAME OF FILE WITHOUT EXTENSION : &quot;+FilenameUtils.removeExtension((String)globalMap.get(&quot;currentFile&quot;)));&#xA;//globalMap.put(&quot;currFileName&quot;,FilenameUtils.removeExtension((String)globalMap.get(&quot;currentFile&quot;)));&#xA;&#xA;String outFolder = ((String)globalMap.get(&quot;outputFolder&quot;)).replace(&quot;/&quot;,&quot;\\&quot;);&#xA;String archiveFolder = ((String)globalMap.get(&quot;archivePath&quot;)).replace(&quot;/&quot;,&quot;\\&quot;);&#xA;String currFile = ((String)globalMap.get(&quot;currentFile&quot;)).replace(&quot;/&quot;,&quot;\\&quot;);&#xA;String currFileWithoutExt = FilenameUtils.removeExtension(((String)globalMap.get(&quot;currentFile&quot;)).replace(&quot;/&quot;,&quot;\\&quot;));&#xA;String inputFolder = ((String)globalMap.get(&quot;inputFolder&quot;)).replace(&quot;/&quot;,&quot;\\&quot;);&#xA;&#xA;/*System.out.println(&quot;OutputFolder == &quot;+((String)globalMap.get(&quot;outputFolder&quot;)).replace(&quot;/&quot;,&quot;\\&quot;));&#xA;System.out.println(&quot;archivePath == &quot;+((String)globalMap.get(&quot;archivePath&quot;)).replace(&quot;/&quot;,&quot;\\&quot;));&#xA;System.out.println(&quot;currentFile == &quot;+((String)globalMap.get(&quot;currentFile&quot;)).replace(&quot;/&quot;,&quot;\\&quot;));&#xA;System.out.println(&quot;inputFolder == &quot;+((String)globalMap.get(&quot;inputFolder&quot;)).replace(&quot;/&quot;,&quot;\\&quot;));&#xA;System.out.println(&quot;currentFile without extension == &quot;+FilenameUtils.removeExtension((((String)globalMap.get(&quot;currentFile&quot;)).replace(&quot;/&quot;,&quot;\\&quot;))));*/&#xA;&#xA;String command = &quot;cmd /c 7z a -t&quot;+context.zipType+&quot; &quot; +outFolder+archiveFolder+&quot;\\&quot;+currFileWithoutExt+&quot;.&quot;+context.zipType+&quot; &quot;+ inputFolder+currFile;&#xA;globalMap.put(&quot;archiveCommand&quot;,command);&#xA;&#xA;&#xA;System.out.println(&quot;COMMAND IS : &quot;+command);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.util.*;&#xA;import java.lang.String;&#xA;import org.apache.commons.io.FilenameUtils;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -190,7 +190,7 @@
   </node>
   <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="FILE" name="FILENAME" value="(String)globalMap.get(&quot;inputFolder&quot;)+(String)globalMap.get(&quot;currentFile&quot;)"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
     <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Users/harshul/talend-home/TOS_DI-Win32-20141207_1530-V5.6.1/workspace&quot;"/>
@@ -206,7 +206,7 @@
   <node componentName="tFileArchive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileArchive_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="DIRECTORY" name="SOURCE" value="(String)globalMap.get(&quot;inputFolder&quot;)"/>
     <elementParameter field="CHECK" name="SUB_DIRECTROY" value="false"/>
     <elementParameter field="FILE" name="TARGET" value="(String)globalMap.get(&quot;outputFolder&quot;)+globalMap.get(&quot;archivePath&quot;)+&quot;/&quot;+globalMap.get(&quot;currentFile&quot;)+&quot;.zip&quot;"/>
@@ -236,7 +236,7 @@
   </node>
   <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_2"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="FILE" name="FILENAME" value="(String)globalMap.get(&quot;inputFolder&quot;)+(String)globalMap.get(&quot;currentFile&quot;)"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
     <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Users/harshul/talend-home/TOS_DI-Win32-20141207_1530-V5.6.1/workspace&quot;"/>
@@ -251,7 +251,7 @@
   </node>
   <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_3"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="FILE" name="FILENAME" value="(String)globalMap.get(&quot;inputFolder&quot;)+(String)globalMap.get(&quot;currentFile&quot;)"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
     <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Users/harshul/talend-home/TOS_DI-Win32-20141207_1530-V5.6.1/workspace&quot;"/>
@@ -266,7 +266,7 @@
   </node>
   <node componentName="tSystem" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSystem_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="CHECK" name="ROOTDIR" value="false"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="(String)globalMap.get(&quot;inputFolder&quot;)"/>
     <elementParameter field="RADIO" name="USE_SINGLE_COMMAND" value="true"/>
@@ -292,7 +292,7 @@
   </node>
   <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Users\harshul\talend-home\TOS_DI-Win32-20141207_1530-V5.6.1\configuration\lib\java"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Masters\Internship\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
     <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;org.apache.commons.io.jar&quot;"/>
     <elementParameter field="TABLE" name="HOTLIBS"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import org.apache.commons.io.FilenameUtils;"/>
@@ -357,7 +357,7 @@
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.softDelete ==  true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If4"/>
   </connection>
-  <note opaque="true" posX="64" posY="384" sizeHeight="64" sizeWidth="96" text="Added library to get file name without its extension">
+  <note opaque="false" posX="64" posY="384" sizeHeight="65" sizeWidth="97" text="Added library to get file name without its extension">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>

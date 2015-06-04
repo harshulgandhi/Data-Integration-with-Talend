@@ -2,10 +2,10 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="curr_file" prompt="curr_file?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value=""/>
-    <contextParameter comment="" name="decell_dir" prompt="decell_dir?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_26"/>
-    <contextParameter comment="" name="decell_dir_csv" prompt="decell_dir_csv?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_26_csv"/>
-    <contextParameter comment="" name="lta_dir" prompt="lta_dir?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_26"/>
-    <contextParameter comment="" name="lta_dir_csv" prompt="lta_dir_csv?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_26_csv"/>
+    <contextParameter comment="" name="decell_dir" prompt="decell_dir?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_29"/>
+    <contextParameter comment="" name="decell_dir_csv" prompt="decell_dir_csv?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/dxml_2015_05_29_csv"/>
+    <contextParameter comment="" name="lta_dir" prompt="lta_dir?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_29"/>
+    <contextParameter comment="" name="lta_dir_csv" prompt="lta_dir_csv?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/td_2015_05_29_csv"/>
     <contextParameter comment="" name="lta_linkid_map" prompt="lta_linkid_map?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/QI/D-LTA-Summary/Talend/hmz_lta2lt_20110103.csv"/>
     <contextParameter comment="" name="temp_file" prompt="temp_file?" promptNeeded="false" repositoryContextId="_TnxQ0AUKEeWLWsofXhLDww" type="id_String" value="C:/Masters/Internship/TOS_DI-Win32-20150508_1414-V5.6.2/workspace/out.csv"/>
   </context>
@@ -372,7 +372,7 @@
       <column comment="" key="false" length="3" name="coord_Direction" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="Code" expression="row1.Code " type="id_Integer" nullable="true"/>
@@ -511,7 +511,7 @@
       <column comment="" key="false" length="9" name="link_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out3" activateCondensedTool="true">
         <mapperTableEntries name="Code" expression="out2.Code " type="id_Integer" nullable="true"/>
@@ -1011,6 +1011,26 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out3"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="link_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="col1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="col2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="origin_dest"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="col3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="col4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2"/>
   </connection>
